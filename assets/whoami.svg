@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="880" height="430" role="img" aria-label="Terminal running neofetch for sazzad@f9x: Sazzad Hussain, founder and engineer at F9x Technologies, Bhubaneswar, India. 10 years on GitHub, 228 repositories. PHP, Go, TypeScript, Dart, Laravel, Vue, Next.js, Flutter, Swift.">
+<title>sazzad@f9x: neofetch</title>
+<defs>
+<linearGradient id="whoami-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0d1410"/></linearGradient>
+<linearGradient id="whoami-logo" gradientUnits="userSpaceOnUse" x1="84" y1="105" x2="244" y2="331"><stop offset="0" stop-color="#00ff41"/><stop offset=".55" stop-color="#39d353"/><stop offset="1" stop-color="#1f9a48"/></linearGradient>
+<linearGradient id="whoami-band" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d7ffe0" stop-opacity="0"/><stop offset=".5" stop-color="#d7ffe0" stop-opacity=".5"/><stop offset="1" stop-color="#d7ffe0" stop-opacity="0"/></linearGradient>
+<linearGradient id="whoami-sweepg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00ff41" stop-opacity="0"/><stop offset=".5" stop-color="#00ff41" stop-opacity=".045"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></linearGradient>
+<radialGradient id="whoami-halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#00ff41" stop-opacity=".10"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></radialGradient>
+<linearGradient id="whoami-glossg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eafff0" stop-opacity=".34"/><stop offset="1" stop-color="#eafff0" stop-opacity="0"/></linearGradient>
+<pattern id="whoami-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00ff41" opacity=".035"/></pattern>
+<filter id="whoami-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="whoami-panel"><rect x=".5" y=".5" width="879" height="429" rx="12"/></clipPath>
+<clipPath id="whoami-cells"><rect x="117" y="105" width="28" height="28" rx="4"/><rect x="150" y="105" width="28" height="28" rx="4"/><rect x="183" y="105" width="28" height="28" rx="4"/><rect x="216" y="105" width="28" height="28" rx="4"/><rect x="84" y="138" width="28" height="28" rx="4"/><rect x="84" y="171" width="28" height="28" rx="4"/><rect x="117" y="204" width="28" height="28" rx="4"/><rect x="150" y="204" width="28" height="28" rx="4"/><rect x="183" y="204" width="28" height="28" rx="4"/><rect x="216" y="237" width="28" height="28" rx="4"/><rect x="216" y="270" width="28" height="28" rx="4"/><rect x="84" y="303" width="28" height="28" rx="4"/><rect x="117" y="303" width="28" height="28" rx="4"/><rect x="150" y="303" width="28" height="28" rx="4"/><rect x="183" y="303" width="28" height="28" rx="4"/></clipPath>
+</defs>
+<style>
+.whoami-in{animation:whoami-in .45s cubic-bezier(.2,.7,.2,1) both}
+.whoami-cell{animation:whoami-cell .5s ease-out both}
+.whoami-fade{animation:whoami-fade .6s ease-out 2.25s both}
+.whoami-ch{animation:whoami-ch .01s steps(1) both}
+.whoami-tc{fill-opacity:0;animation:whoami-tcell .1s linear}
+.whoami-cur{animation:whoami-in .2s ease-out 3.20s both,whoami-blink 1.1s steps(1) 3.40s infinite}
+.whoami-shim{opacity:0;animation:whoami-shim 7s linear 4s infinite}
+.whoami-sweep{animation:whoami-sweep 11s linear 2s infinite}
+.whoami-pulse{animation:whoami-pulse 5s ease-in-out 4s infinite}
+.whoami-live{animation:whoami-live 2.6s ease-in-out 4s infinite}
+.whoami-k{fill:#00e5ff;font-size:15px;font-weight:700}
+.whoami-colon{fill:#4a6352;font-weight:400}
+.whoami-v{fill:#d7ffe0;font-size:15px}
+.whoami-mut{fill:#7d9a85}
+.whoami-sep{fill:#1f7a3a}
+@keyframes whoami-in{from{opacity:0;transform:translateY(5px)}}
+@keyframes whoami-cell{from{opacity:0;fill:#d7ffe0}}
+@keyframes whoami-fade{from{opacity:0}}
+@keyframes whoami-ch{from{fill-opacity:0}}
+@keyframes whoami-tcell{from,to{fill-opacity:1}}
+@keyframes whoami-blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
+@keyframes whoami-shim{0%{opacity:1;transform:translateY(0)}32%{opacity:1;transform:translateY(292px)}32.1%,100%{opacity:0;transform:translateY(292px)}}
+@keyframes whoami-sweep{from{transform:translateY(0)}to{transform:translateY(600px)}}
+@keyframes whoami-live{50%{opacity:.3}}
+@keyframes whoami-pulse{50%{opacity:.55}}
+@media (prefers-reduced-motion: reduce){*{animation:none !important}}
+</style>
+<g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<rect x=".5" y=".5" width="879" height="429" rx="12" fill="url(#whoami-bg)" stroke="#1c3a23"/>
+<g clip-path="url(#whoami-panel)">
+<rect class="whoami-sweep" x="0" y="-160" width="880" height="150" fill="url(#whoami-sweepg)"/>
+</g>
+<line x1="1" y1="36.5" x2="879" y2="36.5" stroke="#14261a"/>
+<circle cx="24" cy="18" r="5.5" fill="#ff5f56"/><circle cx="44" cy="18" r="5.5" fill="#ffbd2e"/><circle cx="64" cy="18" r="5.5" fill="#27c93f"/>
+<text x="440" y="22.5" font-size="13" fill="#7d9a85" text-anchor="middle">sazzad@f9x: ~</text>
+
+<text x="28" y="64" font-size="14"><tspan fill="#00ff41">sazzad@f9x</tspan><tspan fill="#7d9a85">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#7d9a85">$</tspan></text>
+<text x="28" y="64" font-size="14" fill="#d7ffe0" xml:space="preserve"><tspan visibility="hidden">sazzad@f9x:~$ </tspan><tspan class="whoami-ch" style="animation-delay:0.49s">n</tspan><tspan class="whoami-ch" style="animation-delay:0.59s">e</tspan><tspan class="whoami-ch" style="animation-delay:0.69s">o</tspan><tspan class="whoami-ch" style="animation-delay:0.79s">f</tspan><tspan class="whoami-ch" style="animation-delay:0.89s">e</tspan><tspan class="whoami-ch" style="animation-delay:0.99s">t</tspan><tspan class="whoami-ch" style="animation-delay:1.09s">c</tspan><tspan class="whoami-ch" style="animation-delay:1.19s">h</tspan></text>
+<text x="28" y="64" font-size="14" fill="#00ff41" xml:space="preserve" aria-hidden="true"><tspan visibility="hidden">sazzad@f9x:~$ </tspan><tspan class="whoami-tc" style="animation-delay:0.00s;animation-duration:0.50s">&#9608;</tspan><tspan class="whoami-tc" style="animation-delay:0.50s;animation-duration:0.10s">&#9608;</tspan><tspan class="whoami-tc" style="animation-delay:0.60s;animation-duration:0.10s">&#9608;</tspan><tspan class="whoami-tc" style="animation-delay:0.70s;animation-duration:0.10s">&#9608;</tspan><tspan class="whoami-tc" style="animation-delay:0.80s;animation-duration:0.10s">&#9608;</tspan><tspan class="whoami-tc" style="animation-delay:0.90s;animation-duration:0.10s">&#9608;</tspan><tspan class="whoami-tc" style="animation-delay:1.00s;animation-duration:0.10s">&#9608;</tspan><tspan class="whoami-tc" style="animation-delay:1.10s;animation-duration:0.10s">&#9608;</tspan><tspan class="whoami-tc" style="animation-delay:1.20s;animation-duration:0.35s">&#9608;</tspan></text>
+
+<g class="whoami-in" style="animation-delay:1.50s">
+<ellipse class="whoami-pulse" cx="164" cy="218" rx="150" ry="165" fill="url(#whoami-halo)"/>
+<path d="M63,100V84H79 M249,84H265V100 M265,336V352H249 M79,352H63V336" fill="none" stroke="#1f7a3a" stroke-width="1.5"/>
+<g fill="#0c160f" stroke="#14261a"><rect x="84.5" y="105.5" width="27" height="27" rx="4"/><rect x="117.5" y="138.5" width="27" height="27" rx="4"/><rect x="150.5" y="138.5" width="27" height="27" rx="4"/><rect x="183.5" y="138.5" width="27" height="27" rx="4"/><rect x="216.5" y="138.5" width="27" height="27" rx="4"/><rect x="117.5" y="171.5" width="27" height="27" rx="4"/><rect x="150.5" y="171.5" width="27" height="27" rx="4"/><rect x="183.5" y="171.5" width="27" height="27" rx="4"/><rect x="216.5" y="171.5" width="27" height="27" rx="4"/><rect x="84.5" y="204.5" width="27" height="27" rx="4"/><rect x="216.5" y="204.5" width="27" height="27" rx="4"/><rect x="84.5" y="237.5" width="27" height="27" rx="4"/><rect x="117.5" y="237.5" width="27" height="27" rx="4"/><rect x="150.5" y="237.5" width="27" height="27" rx="4"/><rect x="183.5" y="237.5" width="27" height="27" rx="4"/><rect x="84.5" y="270.5" width="27" height="27" rx="4"/><rect x="117.5" y="270.5" width="27" height="27" rx="4"/><rect x="150.5" y="270.5" width="27" height="27" rx="4"/><rect x="183.5" y="270.5" width="27" height="27" rx="4"/><rect x="216.5" y="303.5" width="27" height="27" rx="4"/></g>
+<text x="164" y="376" font-size="11" fill="#4a6352" text-anchor="middle" letter-spacing="2">@sazzadh88</text>
+</g>
+<g fill="url(#whoami-logo)" filter="url(#whoami-glow)"><rect class="whoami-cell" style="animation-delay:1.52s" x="117" y="105" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.55s" x="150" y="105" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.57s" x="183" y="105" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.60s" x="216" y="105" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.57s" x="84" y="138" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.64s" x="84" y="171" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.73s" x="117" y="204" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.76s" x="150" y="204" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.78s" x="183" y="204" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.88s" x="216" y="237" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.95s" x="216" y="270" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.92s" x="84" y="303" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.94s" x="117" y="303" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.97s" x="150" y="303" width="28" height="28" rx="4"/><rect class="whoami-cell" style="animation-delay:1.99s" x="183" y="303" width="28" height="28" rx="4"/></g>
+<g class="whoami-fade" fill="url(#whoami-glossg)"><rect x="119" y="107" width="24" height="11" rx="2.5"/><rect x="152" y="107" width="24" height="11" rx="2.5"/><rect x="185" y="107" width="24" height="11" rx="2.5"/><rect x="218" y="107" width="24" height="11" rx="2.5"/><rect x="86" y="140" width="24" height="11" rx="2.5"/><rect x="86" y="173" width="24" height="11" rx="2.5"/><rect x="119" y="206" width="24" height="11" rx="2.5"/><rect x="152" y="206" width="24" height="11" rx="2.5"/><rect x="185" y="206" width="24" height="11" rx="2.5"/><rect x="218" y="239" width="24" height="11" rx="2.5"/><rect x="218" y="272" width="24" height="11" rx="2.5"/><rect x="86" y="305" width="24" height="11" rx="2.5"/><rect x="119" y="305" width="24" height="11" rx="2.5"/><rect x="152" y="305" width="24" height="11" rx="2.5"/><rect x="185" y="305" width="24" height="11" rx="2.5"/></g>
+<g clip-path="url(#whoami-cells)"><rect class="whoami-shim" x="80" y="45" width="168" height="56" fill="url(#whoami-band)"/></g>
+
+<g class="whoami-in" style="animation-delay:1.50s"><text x="330" y="94" font-size="15" font-weight="700"><tspan fill="#00ff41">sazzad</tspan><tspan fill="#7d9a85">@</tspan><tspan fill="#00ff41">f9x</tspan></text><text x="837" y="94" font-size="13" fill="#7d9a85" text-anchor="end">Sazzad Hussain</text><circle class="whoami-live" cx="848" cy="89.5" r="3" fill="#00ff41" filter="url(#whoami-glow)"/></g>
+<line class="whoami-in" style="animation-delay:1.59s" x1="330" y1="105.5" x2="852" y2="105.5" stroke="#1c3a23" stroke-dasharray="5 4"/>
+<g class="whoami-in" style="animation-delay:1.68s"><text x="330" y="128" class="whoami-k">OS<tspan class="whoami-colon">:</tspan></text><text x="440" y="128" class="whoami-v">Human 1.0 (Full-Stack Edition)</text></g>
+<g class="whoami-in" style="animation-delay:1.77s"><text x="330" y="150" class="whoami-k">Host<tspan class="whoami-colon">:</tspan></text><text x="440" y="150" class="whoami-v">F9x Technologies</text></g>
+<g class="whoami-in" style="animation-delay:1.86s"><text x="330" y="172" class="whoami-k">Kernel<tspan class="whoami-colon">:</tspan></text><text x="440" y="172" class="whoami-v">Founder / Engineer</text></g>
+<g class="whoami-in" style="animation-delay:1.95s"><text x="330" y="194" class="whoami-k">Location<tspan class="whoami-colon">:</tspan></text><text x="440" y="194" class="whoami-v">Bhubaneswar, India</text></g>
+<g class="whoami-in" style="animation-delay:2.04s"><text x="330" y="216" class="whoami-k">Uptime<tspan class="whoami-colon">:</tspan></text><text x="440" y="216" class="whoami-v">10 years <tspan class="whoami-mut">(since 2016-09-10)</tspan></text></g>
+<g class="whoami-in" style="animation-delay:2.13s"><text x="330" y="238" class="whoami-k">Packages<tspan class="whoami-colon">:</tspan></text><text x="440" y="238" class="whoami-v">228 repos <tspan class="whoami-mut">(42 public, 186 private)</tspan></text></g>
+<g class="whoami-in" style="animation-delay:2.22s"><text x="330" y="260" class="whoami-k">Shell<tspan class="whoami-colon">:</tspan></text><text x="440" y="260" class="whoami-v">PHP<tspan class="whoami-sep"> · </tspan>Go<tspan class="whoami-sep"> · </tspan>TypeScript<tspan class="whoami-sep"> · </tspan>Dart</text></g>
+<g class="whoami-in" style="animation-delay:2.31s"><text x="330" y="282" class="whoami-k">DE<tspan class="whoami-colon">:</tspan></text><text x="440" y="282" class="whoami-v">Laravel<tspan class="whoami-sep"> · </tspan>Vue<tspan class="whoami-sep"> · </tspan>Next.js<tspan class="whoami-sep"> · </tspan>Flutter</text></g>
+<g class="whoami-in" style="animation-delay:2.40s"><text x="330" y="304" class="whoami-k">WM<tspan class="whoami-colon">:</tspan></text><text x="440" y="304" class="whoami-v">Swift / SwiftUI <tspan class="whoami-mut">(macOS)</tspan></text></g>
+<g class="whoami-in" style="animation-delay:2.49s"><text x="330" y="326" class="whoami-k">Terminal<tspan class="whoami-colon">:</tspan></text><text x="440" y="326" class="whoami-v">Claude<tspan class="whoami-sep"> · </tspan>Remotion<tspan class="whoami-sep"> · </tspan>FFmpeg</text></g>
+<g class="whoami-in" style="animation-delay:2.58s"><text x="330" y="348" class="whoami-k">Memory<tspan class="whoami-colon">:</tspan></text><text x="440" y="348" class="whoami-v">MySQL<tspan class="whoami-sep"> · </tspan>PostgreSQL<tspan class="whoami-sep"> · </tspan>Redis</text></g>
+<rect class="whoami-in" style="animation-delay:2.73s" x="330" y="364" width="30" height="14" rx="2" fill="#0f3d1e"/><rect class="whoami-in" style="animation-delay:2.77s" x="366" y="364" width="30" height="14" rx="2" fill="#1f7a3a"/><rect class="whoami-in" style="animation-delay:2.81s" x="402" y="364" width="30" height="14" rx="2" fill="#39d353"/><rect class="whoami-in" style="animation-delay:2.85s" x="438" y="364" width="30" height="14" rx="2" fill="#00ff41"/><rect class="whoami-in" style="animation-delay:2.89s" x="474" y="364" width="30" height="14" rx="2" fill="#00e5ff"/><rect class="whoami-in" style="animation-delay:2.93s" x="510" y="364" width="30" height="14" rx="2" fill="#ffb000"/><rect class="whoami-in" style="animation-delay:2.97s" x="546" y="364" width="30" height="14" rx="2" fill="#ff3b3b"/><rect class="whoami-in" style="animation-delay:3.01s" x="582" y="364" width="30" height="14" rx="2" fill="#7d9a85"/>
+
+<g class="whoami-in" style="animation-delay:3.20s"><text x="28" y="408" font-size="14"><tspan fill="#00ff41">sazzad@f9x</tspan><tspan fill="#7d9a85">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#7d9a85">$</tspan></text></g>
+<text class="whoami-cur" x="28" y="408" font-size="14" fill="#00ff41" xml:space="preserve" filter="url(#whoami-glow)" aria-hidden="true"><tspan visibility="hidden">sazzad@f9x:~$ </tspan>&#9608;</text>
+<rect x="1" y="1" width="878" height="428" rx="12" fill="url(#whoami-scan)" pointer-events="none"/>
+</g>
+</svg>

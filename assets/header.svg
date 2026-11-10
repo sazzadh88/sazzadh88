@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Sazzad Hussain - F9x Technologies, Bhubaneswar, India. 228 repositories, 42 public, 186 private, 10 years on GitHub.">
+<title>Sazzad Hussain - F9x Technologies</title>
+<style>
+.hdr-r{animation:hdr-fall 9s linear infinite}
+.hdr-r2{opacity:0;animation-name:hdr-fall,hdr-show}
+@keyframes hdr-show{from,to{opacity:1}}
+@keyframes hdr-fall{from{transform:translateY(-440px)}to{transform:translateY(440px)}}
+.hdr-rain{animation:hdr-in 1.4s ease-out both}
+@keyframes hdr-in{from{opacity:0}}
+.hdr-t{animation:hdr-flick .9s steps(1,end) .35s both}
+@keyframes hdr-flick{0%{opacity:0}12%{opacity:1}20%{opacity:.15}32%{opacity:.9}40%{opacity:.3}52%{opacity:1}}
+.hdr-gl{animation:hdr-pulse 4.5s ease-in-out 2s infinite}
+@keyframes hdr-pulse{50%{opacity:.4}}
+.hdr-a,.hdr-b{opacity:0;animation:hdr-ga 5s steps(1,end) .5s infinite}
+.hdr-b{animation-name:hdr-gb}
+@keyframes hdr-ga{0%{opacity:.95;transform:translateX(-9px)}2.5%{opacity:.95;transform:translateX(6px)}5%{opacity:.8;transform:translateX(-3px)}7.5%,100%{opacity:0;transform:none}}
+@keyframes hdr-gb{0%{opacity:.95;transform:translateX(8px)}2.5%{opacity:.95;transform:translateX(-7px)}5%{opacity:.8;transform:translateX(4px)}7.5%,100%{opacity:0;transform:none}}
+.hdr-m{animation:hdr-gm 5s steps(1,end) .5s infinite}
+@keyframes hdr-gm{0%{transform:translateX(2px)}2.5%{transform:translateX(-2px)}5%,100%{transform:none}}
+.hdr-f{animation:hdr-up .7s ease-out both}
+@keyframes hdr-up{from{opacity:0;transform:translateY(6px)}}
+.hdr-k{animation:hdr-in 2s steps(1,end) both}
+.hdr-cur{animation:hdr-move 1.425s steps(19,end) 1.7s both}
+@keyframes hdr-move{from{transform:translateX(-182.4px)}}
+.hdr-blink{animation:hdr-bl 1.1s steps(1,end) 3.42s infinite}
+@keyframes hdr-bl{50%{opacity:0}}
+.hdr-h{animation:hdr-in .5s ease-out both}
+.hdr-ring{transform-box:fill-box;transform-origin:center;animation:hdr-ping 2.4s ease-out 4.2s infinite}
+@keyframes hdr-ping{0%{opacity:.7;transform:scale(1)}70%,100%{opacity:0;transform:scale(2.6)}}
+.hdr-dot{animation:hdr-pulse 2.4s ease-in-out 4.2s infinite}
+.hdr-sweep{animation:hdr-sw 9s linear 3s infinite}
+@keyframes hdr-sw{from{transform:translateY(0)}to{transform:translateY(460px)}}
+.hdr-c{animation:hdr-in .6s ease-out .2s both}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="hdr-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0d1410"/></linearGradient>
+<linearGradient id="hdr-tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8dffab"/><stop offset=".55" stop-color="#00ff41"/><stop offset="1" stop-color="#00d936"/></linearGradient>
+<linearGradient id="hdr-top" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="68"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0a0e0a" stop-opacity="0"/></linearGradient>
+<radialGradient id="hdr-mg"><stop offset="0" stop-color="#0b100c"/><stop offset=".68" stop-color="#0b100c" stop-opacity=".96"/><stop offset=".85" stop-color="#0b100c" stop-opacity=".5"/><stop offset="1" stop-color="#0b100c" stop-opacity="0"/></radialGradient>
+<radialGradient id="hdr-halo"><stop offset="0" stop-color="#00ff41" stop-opacity=".1"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></radialGradient>
+<linearGradient id="hdr-rule" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#39d353" stop-opacity="0"/><stop offset=".5" stop-color="#39d353" stop-opacity=".8"/><stop offset="1" stop-color="#39d353" stop-opacity="0"/></linearGradient>
+<linearGradient id="hdr-swg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00ff41" stop-opacity="0"/><stop offset=".8" stop-color="#00ff41" stop-opacity=".05"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></linearGradient>
+<linearGradient id="hdr-hud" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e0a" stop-opacity="0"/><stop offset=".35" stop-color="#0a0e0a" stop-opacity=".92"/><stop offset="1" stop-color="#0a0e0a"/></linearGradient>
+<filter id="hdr-glow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
+<pattern id="hdr-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".22"/></pattern>
+<clipPath id="hdr-clip"><rect x=".5" y=".5" width="879" height="299" rx="12"/></clipPath>
+<clipPath id="hdr-ca"><rect x="100" y="106" width="680" height="9"/><rect x="100" y="127" width="680" height="5"/></clipPath>
+<clipPath id="hdr-cb"><rect x="100" y="117" width="680" height="7"/><rect x="100" y="135" width="680" height="8"/></clipPath>
+<linearGradient id="hdr-g0" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="288"><stop offset="0" stop-color="#0f3d1e" stop-opacity="0"/><stop offset=".5" stop-color="#1f7a3a" stop-opacity=".9"/><stop offset="1" stop-color="#00ff41"/></linearGradient>
+<g id="hdr-c0"><text fill="url(#hdr-g0)"><tspan x="0" y="14">ハ</tspan><tspan x="0" y="30">ス</tspan><tspan x="0" y="46">ニ</tspan><tspan x="0" y="62">シ</tspan><tspan x="0" y="78">ル</tspan><tspan x="0" y="94">ア</tspan><tspan x="0" y="110">メ</tspan><tspan x="0" y="126">ン</tspan><tspan x="0" y="142">ア</tspan><tspan x="0" y="158">ニ</tspan><tspan x="0" y="174">ワ</tspan><tspan x="0" y="190">ホ</tspan><tspan x="0" y="206">ケ</tspan><tspan x="0" y="222">ソ</tspan><tspan x="0" y="238">ク</tspan><tspan x="0" y="254">ン</tspan><tspan x="0" y="270">ケ</tspan></text><text x="0" y="286" fill="#d7ffe0">ラ</text></g>
+<linearGradient id="hdr-g1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="224"><stop offset="0" stop-color="#0f3d1e" stop-opacity="0"/><stop offset=".5" stop-color="#1f7a3a" stop-opacity=".9"/><stop offset="1" stop-color="#00ff41"/></linearGradient>
+<g id="hdr-c1"><text fill="url(#hdr-g1)"><tspan x="0" y="14">ヌ</tspan><tspan x="0" y="30">B</tspan><tspan x="0" y="46">7</tspan><tspan x="0" y="62">レ</tspan><tspan x="0" y="78">A</tspan><tspan x="0" y="94">ツ</tspan><tspan x="0" y="110">リ</tspan><tspan x="0" y="126">ナ</tspan><tspan x="0" y="142">タ</tspan><tspan x="0" y="158">E</tspan><tspan x="0" y="174">ワ</tspan><tspan x="0" y="190">ク</tspan><tspan x="0" y="206">ト</tspan></text><text x="0" y="222" fill="#d7ffe0">ミ</text></g>
+<linearGradient id="hdr-g2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="256"><stop offset="0" stop-color="#0f3d1e" stop-opacity="0"/><stop offset=".5" stop-color="#1f7a3a" stop-opacity=".9"/><stop offset="1" stop-color="#00ff41"/></linearGradient>
+<g id="hdr-c2"><text fill="url(#hdr-g2)"><tspan x="0" y="14">キ</tspan><tspan x="0" y="30">6</tspan><tspan x="0" y="46">8</tspan><tspan x="0" y="62">5</tspan><tspan x="0" y="78">0</tspan><tspan x="0" y="94">9</tspan><tspan x="0" y="110">シ</tspan><tspan x="0" y="126">ク</tspan><tspan x="0" y="142">シ</tspan><tspan x="0" y="158">1</tspan><tspan x="0" y="174">コ</tspan><tspan x="0" y="190">ウ</tspan><tspan x="0" y="206">サ</tspan><tspan x="0" y="222">ウ</tspan><tspan x="0" y="238">ケ</tspan></text><text x="0" y="254" fill="#d7ffe0">サ</text></g>
+<linearGradient id="hdr-g3" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="176"><stop offset="0" stop-color="#0f3d1e" stop-opacity="0"/><stop offset=".5" stop-color="#1f7a3a" stop-opacity=".9"/><stop offset="1" stop-color="#00ff41"/></linearGradient>
+<g id="hdr-c3"><text fill="url(#hdr-g3)"><tspan x="0" y="14">オ</tspan><tspan x="0" y="30">ミ</tspan><tspan x="0" y="46">コ</tspan><tspan x="0" y="62">ノ</tspan><tspan x="0" y="78">ア</tspan><tspan x="0" y="94">ケ</tspan><tspan x="0" y="110">ケ</tspan><tspan x="0" y="126">フ</tspan><tspan x="0" y="142">ト</tspan><tspan x="0" y="158">レ</tspan></text><text x="0" y="174" fill="#d7ffe0">イ</text></g>
+<linearGradient id="hdr-g4" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="208"><stop offset="0" stop-color="#0f3d1e" stop-opacity="0"/><stop offset=".5" stop-color="#1f7a3a" stop-opacity=".9"/><stop offset="1" stop-color="#00ff41"/></linearGradient>
+<g id="hdr-c4"><text fill="url(#hdr-g4)"><tspan x="0" y="14">ツ</tspan><tspan x="0" y="30">セ</tspan><tspan x="0" y="46">9</tspan><tspan x="0" y="62">5</tspan><tspan x="0" y="78">サ</tspan><tspan x="0" y="94">4</tspan><tspan x="0" y="110">ユ</tspan><tspan x="0" y="126">ワ</tspan><tspan x="0" y="142">フ</tspan><tspan x="0" y="158">A</tspan><tspan x="0" y="174">1</tspan><tspan x="0" y="190">4</tspan></text><text x="0" y="206" fill="#d7ffe0">エ</text></g>
+<linearGradient id="hdr-g5" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="144"><stop offset="0" stop-color="#0f3d1e" stop-opacity="0"/><stop offset=".5" stop-color="#1f7a3a" stop-opacity=".9"/><stop offset="1" stop-color="#00ff41"/></linearGradient>
+<g id="hdr-c5"><text fill="url(#hdr-g5)"><tspan x="0" y="14">ク</tspan><tspan x="0" y="30">ア</tspan><tspan x="0" y="46">E</tspan><tspan x="0" y="62">ウ</tspan><tspan x="0" y="78">4</tspan><tspan x="0" y="94">ア</tspan><tspan x="0" y="110">D</tspan><tspan x="0" y="126">カ</tspan></text><text x="0" y="142" fill="#d7ffe0">シ</text></g>
+</defs>
+<rect x=".5" y=".5" width="879" height="299" rx="12" fill="url(#hdr-bg)"/>
+<g clip-path="url(#hdr-clip)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<g class="hdr-rain" font-size="14" text-anchor="middle">
+<g transform="translate(14.5 65) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:9.4s;animation-delay:-7.5s"><use href="#hdr-c2"/></g></g>
+<g transform="translate(36.0 102) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:13.1s;animation-delay:-3.7s"><use href="#hdr-c1"/></g><g class="hdr-r hdr-r2" style="animation-duration:13.1s;animation-delay:-9.5s"><use href="#hdr-c4"/></g></g>
+<g transform="translate(63.8 58) scale(1.18)" opacity="1"><g class="hdr-r" style="animation-duration:7.0s;animation-delay:-6.4s"><use href="#hdr-c5"/></g><g class="hdr-r hdr-r2" style="animation-duration:7.0s;animation-delay:-3.1s"><use href="#hdr-c4"/></g></g>
+<g transform="translate(88.4 95) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:9.4s;animation-delay:-6.5s"><use href="#hdr-c0"/></g></g>
+<g transform="translate(119.0 59) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:7.6s;animation-delay:-1.5s"><use href="#hdr-c3"/></g></g>
+<g transform="translate(143.9 -31) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:9.2s;animation-delay:-3.5s"><use href="#hdr-c4"/></g><g class="hdr-r hdr-r2" style="animation-duration:9.2s;animation-delay:-8.8s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(171.2 99) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:8.7s;animation-delay:-7.5s"><use href="#hdr-c3"/></g><g class="hdr-r hdr-r2" style="animation-duration:8.7s;animation-delay:-2.7s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(192.3 108) scale(1.18)" opacity="1"><g class="hdr-r" style="animation-duration:7.0s;animation-delay:-5.1s"><use href="#hdr-c0"/></g></g>
+<g transform="translate(218.2 63) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:11.1s;animation-delay:-7.6s"><use href="#hdr-c0"/></g><g class="hdr-r hdr-r2" style="animation-duration:11.1s;animation-delay:-2.8s"><use href="#hdr-c2"/></g></g>
+<g transform="translate(244.8 37) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:8.1s;animation-delay:-1.3s"><use href="#hdr-c4"/></g><g class="hdr-r hdr-r2" style="animation-duration:8.1s;animation-delay:-5.6s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(271.9 64) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:10.2s;animation-delay:-5.6s"><use href="#hdr-c2"/></g><g class="hdr-r hdr-r2" style="animation-duration:10.2s;animation-delay:-1.2s"><use href="#hdr-c5"/></g></g>
+<g transform="translate(295.9 -6) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:10.3s;animation-delay:-2.6s"><use href="#hdr-c4"/></g></g>
+<g transform="translate(322.9 41) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:14.3s;animation-delay:-2.9s"><use href="#hdr-c5"/></g><g class="hdr-r hdr-r2" style="animation-duration:14.3s;animation-delay:-10.7s"><use href="#hdr-c3"/></g></g>
+<g transform="translate(347.1 56) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:9.6s;animation-delay:-9.4s"><use href="#hdr-c5"/></g></g>
+<g transform="translate(377.6 117) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:7.8s;animation-delay:-3.9s"><use href="#hdr-c0"/></g><g class="hdr-r hdr-r2" style="animation-duration:7.8s;animation-delay:-0.6s"><use href="#hdr-c3"/></g></g>
+<g transform="translate(398.7 71) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:13.1s;animation-delay:-5.0s"><use href="#hdr-c2"/></g><g class="hdr-r hdr-r2" style="animation-duration:13.1s;animation-delay:-10.6s"><use href="#hdr-c5"/></g></g>
+<g transform="translate(428.7 86) scale(1.18)" opacity="1"><g class="hdr-r" style="animation-duration:7.0s;animation-delay:-0.2s"><use href="#hdr-c4"/></g><g class="hdr-r hdr-r2" style="animation-duration:7.0s;animation-delay:-3.6s"><use href="#hdr-c5"/></g></g>
+<g transform="translate(451.7 54) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:8.5s;animation-delay:-0.1s"><use href="#hdr-c5"/></g><g class="hdr-r hdr-r2" style="animation-duration:8.5s;animation-delay:-4.4s"><use href="#hdr-c4"/></g></g>
+<g transform="translate(479.6 79) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:13.8s;animation-delay:-1.1s"><use href="#hdr-c4"/></g><g class="hdr-r hdr-r2" style="animation-duration:13.8s;animation-delay:-7.2s"><use href="#hdr-c3"/></g></g>
+<g transform="translate(502.4 18) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:10.2s;animation-delay:-7.4s"><use href="#hdr-c1"/></g><g class="hdr-r hdr-r2" style="animation-duration:10.2s;animation-delay:-1.8s"><use href="#hdr-c4"/></g></g>
+<g transform="translate(532.6 -22) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:11.1s;animation-delay:-3.9s"><use href="#hdr-c3"/></g><g class="hdr-r hdr-r2" style="animation-duration:11.1s;animation-delay:-8.9s"><use href="#hdr-c4"/></g></g>
+<g transform="translate(557.6 105) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:8.6s;animation-delay:-0.7s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(580.8 78) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:12.8s;animation-delay:-7.3s"><use href="#hdr-c1"/></g><g class="hdr-r hdr-r2" style="animation-duration:12.8s;animation-delay:-12.8s"><use href="#hdr-c5"/></g></g>
+<g transform="translate(605.9 22) scale(1.18)" opacity="1"><g class="hdr-r" style="animation-duration:5.7s;animation-delay:-5.6s"><use href="#hdr-c4"/></g></g>
+<g transform="translate(632.6 2) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:14.3s;animation-delay:-9.2s"><use href="#hdr-c2"/></g><g class="hdr-r hdr-r2" style="animation-duration:14.3s;animation-delay:-1.7s"><use href="#hdr-c0"/></g></g>
+<g transform="translate(659.8 90) scale(1.18)" opacity="1"><g class="hdr-r" style="animation-duration:6.1s;animation-delay:-3.0s"><use href="#hdr-c3"/></g><g class="hdr-r hdr-r2" style="animation-duration:6.1s;animation-delay:-5.9s"><use href="#hdr-c2"/></g></g>
+<g transform="translate(687.3 85) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:13.1s;animation-delay:-4.2s"><use href="#hdr-c4"/></g><g class="hdr-r hdr-r2" style="animation-duration:13.1s;animation-delay:-10.6s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(714.3 1) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:7.6s;animation-delay:-4.7s"><use href="#hdr-c2"/></g><g class="hdr-r hdr-r2" style="animation-duration:7.6s;animation-delay:-1.0s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(737.0 92) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:14.9s;animation-delay:-13.6s"><use href="#hdr-c4"/></g><g class="hdr-r hdr-r2" style="animation-duration:14.9s;animation-delay:-5.0s"><use href="#hdr-c2"/></g></g>
+<g transform="translate(762.8 52) scale(0.78)" opacity="0.62"><g class="hdr-r" style="animation-duration:13.6s;animation-delay:-12.8s"><use href="#hdr-c0"/></g><g class="hdr-r hdr-r2" style="animation-duration:13.6s;animation-delay:-5.4s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(792.2 2) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:9.6s;animation-delay:-4.8s"><use href="#hdr-c0"/></g><g class="hdr-r hdr-r2" style="animation-duration:9.6s;animation-delay:-9.0s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(815.5 61) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:8.2s;animation-delay:-1.2s"><use href="#hdr-c1"/></g><g class="hdr-r hdr-r2" style="animation-duration:8.2s;animation-delay:-5.5s"><use href="#hdr-c3"/></g></g>
+<g transform="translate(842.8 37) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:9.9s;animation-delay:-6.2s"><use href="#hdr-c1"/></g></g>
+<g transform="translate(865.1 -20) scale(1)" opacity="0.85"><g class="hdr-r" style="animation-duration:8.0s;animation-delay:-2.0s"><use href="#hdr-c3"/></g><g class="hdr-r hdr-r2" style="animation-duration:8.0s;animation-delay:-6.3s"><use href="#hdr-c0"/></g></g>
+</g>
+<rect width="880" height="68" fill="url(#hdr-top)"/>
+<ellipse cx="440" cy="132" rx="384" ry="116" fill="url(#hdr-mg)"/>
+<ellipse cx="440" cy="130" rx="330" ry="90" fill="url(#hdr-halo)"/>
+<rect y="236" width="880" height="64" fill="url(#hdr-hud)"/>
+<g class="hdr-f" style="animation-delay:.9s"><text x="441" y="82" text-anchor="middle" font-size="13" letter-spacing="3" fill="#7d9a85"><tspan fill="#39d353">//</tspan><tspan dx="8">F9X TECHNOLOGIES</tspan><tspan dx="12" fill="#39d353">·</tspan><tspan dx="12">BHUBANESWAR, IN</tspan></text></g>
+<g class="hdr-t">
+<g class="hdr-gl" opacity=".75"><text x="443" y="142" text-anchor="middle" font-size="54" font-weight="700" letter-spacing="6" fill="#00ff41" filter="url(#hdr-glow)">SAZZAD HUSSAIN</text></g>
+<g clip-path="url(#hdr-ca)"><g class="hdr-a"><text x="443" y="142" text-anchor="middle" font-size="54" font-weight="700" letter-spacing="6" fill="#00e5ff">SAZZAD HUSSAIN</text></g></g>
+<g clip-path="url(#hdr-cb)"><g class="hdr-b"><text x="443" y="142" text-anchor="middle" font-size="54" font-weight="700" letter-spacing="6" fill="#ff3b3b">SAZZAD HUSSAIN</text></g></g>
+<g class="hdr-m"><text x="443" y="142" text-anchor="middle" font-size="54" font-weight="700" letter-spacing="6" fill="url(#hdr-tg)">SAZZAD HUSSAIN</text></g>
+</g>
+<rect class="hdr-f" style="animation-delay:1.1s" x="290" y="160" width="300" height="1" fill="url(#hdr-rule)"/>
+<g font-size="16">
+<g class="hdr-f" style="animation-delay:1.2s"><text x="281.0" y="190" textLength="76.8" lengthAdjust="spacing" fill="#00ff41">root@f9x</text>
+<text x="357.8" y="190" fill="#7d9a85">:</text><text x="367.4" y="190" fill="#00e5ff">~</text><text x="377.0" y="190" fill="#7d9a85">$</text></g>
+<g fill="#d7ffe0">
+<text class="hdr-k" x="396.2" y="190" style="animation-duration:1.775s">.</text>
+<text class="hdr-k" x="405.8" y="190" style="animation-duration:1.850s">/</text>
+<text class="hdr-k" x="415.4" y="190" style="animation-duration:1.925s">s</text>
+<text class="hdr-k" x="425.0" y="190" style="animation-duration:2.000s">h</text>
+<text class="hdr-k" x="434.6" y="190" style="animation-duration:2.075s">i</text>
+<text class="hdr-k" x="444.2" y="190" style="animation-duration:2.150s">p</text>
+<text class="hdr-k" x="463.4" y="190" fill="#00e5ff" style="animation-duration:2.300s">-</text>
+<text class="hdr-k" x="473.0" y="190" fill="#00e5ff" style="animation-duration:2.375s">-</text>
+<text class="hdr-k" x="482.6" y="190" style="animation-duration:2.450s">e</text>
+<text class="hdr-k" x="492.2" y="190" style="animation-duration:2.525s">v</text>
+<text class="hdr-k" x="501.8" y="190" style="animation-duration:2.600s">e</text>
+<text class="hdr-k" x="511.4" y="190" style="animation-duration:2.675s">r</text>
+<text class="hdr-k" x="521.0" y="190" style="animation-duration:2.750s">y</text>
+<text class="hdr-k" x="530.6" y="190" style="animation-duration:2.825s">t</text>
+<text class="hdr-k" x="540.2" y="190" style="animation-duration:2.900s">h</text>
+<text class="hdr-k" x="549.8" y="190" style="animation-duration:2.975s">i</text>
+<text class="hdr-k" x="559.4" y="190" style="animation-duration:3.050s">n</text>
+<text class="hdr-k" x="569.0" y="190" style="animation-duration:3.125s">g</text>
+</g>
+<g class="hdr-f" style="animation-delay:1.2s"><g class="hdr-cur"><rect class="hdr-blink" x="580.6" y="176" width="9" height="18" fill="#00ff41"/></g></g>
+</g>
+<g class="hdr-h" style="animation-delay:3.2s" font-size="12" letter-spacing="1.5" fill="#4a6352"><text x="38" y="30">@sazzadh88</text><text x="842" y="30" text-anchor="end">EST. 2016</text></g>
+<rect y="254" width="880" height="1" fill="#14261a"/>
+<g class="hdr-h" style="animation-delay:3.40s"><rect x="40" y="272" width="2" height="11" fill="#1f7a3a"/><text x="50" y="282" font-size="13" letter-spacing="1.5"><tspan fill="#7d9a85">REPOS</tspan><tspan dx="9" fill="#d7ffe0" font-weight="700">228</tspan></text></g>
+<g class="hdr-h" style="animation-delay:3.52s"><rect x="224" y="272" width="2" height="11" fill="#1f7a3a"/><text x="234" y="282" font-size="13" letter-spacing="1.5"><tspan fill="#7d9a85">PUBLIC</tspan><tspan dx="9" fill="#d7ffe0" font-weight="700">42</tspan></text></g>
+<g class="hdr-h" style="animation-delay:3.64s"><rect x="408" y="272" width="2" height="11" fill="#1f7a3a"/><text x="418" y="282" font-size="13" letter-spacing="1.5"><tspan fill="#7d9a85">CLASSIFIED</tspan><tspan dx="9" fill="#ff3b3b" font-weight="700">186</tspan></text></g>
+<g class="hdr-h" style="animation-delay:3.76s"><rect x="592" y="272" width="2" height="11" fill="#1f7a3a"/><text x="602" y="282" font-size="13" letter-spacing="1.5"><tspan fill="#7d9a85">UPTIME</tspan><tspan dx="9" fill="#d7ffe0" font-weight="700">10Y</tspan></text></g>
+<g class="hdr-h" style="animation-delay:3.9s"><circle class="hdr-ring" cx="835.5" cy="277.5" r="4.5" fill="none" stroke="#00ff41" stroke-width="1.2" opacity="0"/><circle class="hdr-dot" cx="835.5" cy="277.5" r="4.5" fill="#00ff41"/><text x="823.0" y="282" text-anchor="end" font-size="13" letter-spacing="1.5" fill="#00ff41" font-weight="700">ONLINE</text></g>
+<rect width="880" height="300" fill="url(#hdr-scan)" opacity=".16"/>
+<rect class="hdr-sweep" y="-160" width="880" height="160" fill="url(#hdr-swg)"/>
+<g class="hdr-c" fill="none" stroke="#39d353" stroke-width="1.5" opacity=".8"><path d="M13 27V13H27"/><path d="M867 27V13H853"/><path d="M13 273V287H27"/><path d="M867 273V287H853"/></g>
+</g>
+<rect x=".5" y=".5" width="879" height="299" rx="12" fill="none" stroke="#1c3a23"/>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 28" width="880" height="28" role="img" aria-label="Section divider">
+  <title>Section divider</title>
+  <defs>
+    <linearGradient id="divider-fade" gradientUnits="userSpaceOnUse" x1="456" y1="0" x2="816" y2="0">
+      <stop offset="0" stop-color="#1f7a3a"/>
+      <stop offset="1" stop-color="#1f7a3a" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="divider-comet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39d353" stop-opacity="0"/>
+      <stop offset=".7" stop-color="#39d353" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#00ff41"/>
+    </linearGradient>
+    <clipPath id="divider-clip"><rect x="456" y="8" width="360" height="13"/></clipPath>
+  </defs>
+  <style>
+    .m { animation: divider-run 4s cubic-bezier(.5,0,.35,1) infinite; }
+    .t { animation: divider-tick 4s ease-out infinite; }
+    .n { animation: divider-node 4s ease-out infinite; transform-origin: 440px 14.5px; }
+    .h { animation: divider-halo 4s ease-out infinite; transform-origin: 440px 14.5px; }
+    @keyframes divider-run {
+      0% { transform: translateX(0); opacity: 0; }
+      5% { opacity: 1; }
+      58% { transform: translateX(432px); opacity: 1; }
+      59%, 100% { transform: translateX(432px); opacity: 0; }
+    }
+    @keyframes divider-tick {
+      0%, 40% { stroke: #1f7a3a; stroke-width: 1; }
+      45% { stroke: #39d353; stroke-width: 2; }
+      62%, 100% { stroke: #1f7a3a; stroke-width: 1; }
+    }
+    @keyframes divider-node { 0% { transform: scale(1.4); } 16%, 100% { transform: scale(1); } }
+    @keyframes divider-halo { 0% { transform: scale(.6); opacity: .9; } 28%, 100% { transform: scale(2.2); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g>
+    <rect x="456" y="14" width="360" height="1" fill="url(#divider-fade)"/>
+    <g fill="none" stroke="#1f7a3a" stroke-linecap="round">
+      <path class="t" d="M815.5 10v9"/>
+      <path class="t" style="animation-delay:.07s" d="M823.5 11.5v6" opacity=".85"/>
+      <path class="t" style="animation-delay:.14s" d="M831.5 12.5v4" opacity=".7"/>
+      <path class="t" style="animation-delay:.21s" d="M839.5 13.5v2" opacity=".55"/>
+    </g>
+    <g clip-path="url(#divider-clip)">
+      <rect class="m" x="384" y="13" width="72" height="3" rx="1.5" fill="url(#divider-comet)" opacity="0"/>
+    </g>
+  </g>
+  <g transform="matrix(-1 0 0 1 880 0)">
+    <rect x="456" y="14" width="360" height="1" fill="url(#divider-fade)"/>
+    <g fill="none" stroke="#1f7a3a" stroke-linecap="round">
+      <path class="t" d="M815.5 10v9"/>
+      <path class="t" style="animation-delay:.07s" d="M823.5 11.5v6" opacity=".85"/>
+      <path class="t" style="animation-delay:.14s" d="M831.5 12.5v4" opacity=".7"/>
+      <path class="t" style="animation-delay:.21s" d="M839.5 13.5v2" opacity=".55"/>
+    </g>
+    <g clip-path="url(#divider-clip)">
+      <rect class="m" x="384" y="13" width="72" height="3" rx="1.5" fill="url(#divider-comet)" opacity="0"/>
+    </g>
+  </g>
+  <path class="h" d="M440 6.5l8 8-8 8-8-8z" fill="none" stroke="#39d353" opacity="0"/>
+  <path class="n" d="M440 8l6.5 6.5-6.5 6.5-6.5-6.5z" fill="#1f7a3a"/>
+  <path d="M440 12l2.5 2.5-2.5 2.5-2.5-2.5z" fill="#00ff41"/>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" width="880" height="440" role="img" aria-label="Language arsenal: repositories by primary language. PHP 47, TypeScript 24, Dart 24, Vue 22, HTML 19, JavaScript 17, Blade 10, Python 8, Java 8, CSS 4, Swift, C++, Go and Kotlin 7. 204 original repos, 14 languages. PHP plus Blade make 57 Laravel-world repos." font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>Language arsenal: repos by primary language</title>
+<defs>
+<linearGradient id="langs-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0d1410"/></linearGradient>
+<linearGradient id="langs-sweepg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00ff41" stop-opacity="0"/><stop offset=".5" stop-color="#00ff41" stop-opacity=".05"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></linearGradient>
+<linearGradient id="langs-shineg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d7ffe0" stop-opacity="0"/><stop offset=".6" stop-color="#d7ffe0" stop-opacity=".8"/><stop offset="1" stop-color="#d7ffe0" stop-opacity="0"/></linearGradient>
+<pattern id="langs-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00ff41" opacity=".035"/></pattern>
+<pattern id="langs-cells" x="268" y="91" width="10" height="25" patternUnits="userSpaceOnUse"><rect width="8" height="12" rx="1.5" fill="#fff"/></pattern>
+<mask id="langs-led" maskUnits="userSpaceOnUse" x="268" y="91" width="470" height="275"><rect x="268" y="91" width="470" height="275" fill="url(#langs-cells)"/></mask>
+<clipPath id="langs-clip"><rect x=".5" y=".5" width="879" height="439" rx="12"/></clipPath>
+<filter id="langs-glow" x="-10%" y="-150%" width="120%" height="400%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<style>
+.langs-in{animation:langs-fade .45s ease-out both}
+.langs-bar{transform-box:fill-box;transform-origin:0 50%;animation:langs-grow .95s cubic-bezier(.16,1,.3,1) both}
+.langs-cover{transform-box:fill-box;transform-origin:100% 50%;transform:scaleX(0);animation:langs-type .85s steps(32,end) .15s both}
+.langs-cur{animation:langs-blink 1.1s steps(1,end) 1s infinite}
+.langs-pulse{animation:langs-pulse 3.2s ease-in-out 2.4s infinite}
+.langs-sweep{animation:langs-sweep 11s linear 3.5s infinite}
+.langs-shine{animation:langs-shine 6.4s cubic-bezier(.4,0,.2,1) 3.3s infinite}
+@keyframes langs-fade{from{opacity:0}}
+@keyframes langs-grow{from{transform:scaleX(0)}}
+@keyframes langs-type{from{transform:scaleX(1)}}
+@keyframes langs-blink{50%{opacity:0}}
+@keyframes langs-pulse{50%{opacity:.3}}
+@keyframes langs-sweep{0%{transform:translateX(0)}40%,100%{transform:translateX(1140px)}}
+@keyframes langs-shine{0%{transform:translateX(0)}24%,100%{transform:translateX(600px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="879" height="439" rx="12" fill="url(#langs-bg)" stroke="#1c3a23"/>
+<g clip-path="url(#langs-clip)">
+<circle cx="24" cy="18" r="5.5" fill="#ff5f56"/><circle cx="44" cy="18" r="5.5" fill="#ffbd2e"/><circle cx="64" cy="18" r="5.5" fill="#27c93f"/>
+<text x="440" y="22.5" text-anchor="middle" font-size="13" fill="#7d9a85">sazzad@f9x: ~</text>
+<path d="M1 36.5H879" stroke="#14261a"/>
+<text x="28" y="64" font-size="14" xml:space="preserve"><tspan fill="#00ff41">sazzad@f9x</tspan><tspan fill="#7d9a85">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#7d9a85">$ </tspan><tspan fill="#d7ffe0">arsenal --by-language --all-repos</tspan><tspan class="langs-cur" fill="#00ff41" dx="5">&#9608;</tspan></text>
+<rect class="langs-cover" x="146" y="49" width="394" height="22" fill="#0a0e0b"/>
+<g class="langs-in" style="animation-delay:.9s"><rect x="764" y="54" width="8" height="12" rx="1.5" fill="#39d353"/><text x="852" y="64" text-anchor="end" font-size="13" fill="#4a6352">= 1 repo</text></g>
+
+<g class="langs-in" style="animation-delay:.95s">
+<path d="M267.5 83V361M367.5 83V361M467.5 83V361M567.5 83V361M667.5 83V361" stroke="#14261a"/>
+<text x="267" y="376" text-anchor="middle" font-size="11" fill="#4a6352">0</text>
+<text x="367" y="376" text-anchor="middle" font-size="11" fill="#4a6352">10</text>
+<text x="467" y="376" text-anchor="middle" font-size="11" fill="#4a6352">20</text>
+<text x="567" y="376" text-anchor="middle" font-size="11" fill="#4a6352">30</text>
+<text x="667" y="376" text-anchor="middle" font-size="11" fill="#4a6352">40</text>
+<text x="852" y="376" text-anchor="end" font-size="11" fill="#4a6352">% of 204</text></g>
+<text class="langs-in" style="animation-delay:0.90s" x="252" y="102" text-anchor="end" font-size="14" fill="#00ff41" font-weight="700">PHP</text>
+<g class="langs-in" style="animation-delay:1.65s"><text x="745" y="101.5" font-size="13" font-weight="700" fill="#00ff41">47</text><text x="852" y="101.5" text-anchor="end" font-size="13" fill="#d7ffe0">23.0%</text></g>
+<text class="langs-in" style="animation-delay:0.97s" x="252" y="127" text-anchor="end" font-size="14" fill="#d7ffe0">TypeScript</text>
+<g class="langs-in" style="animation-delay:1.72s"><text x="515" y="126.5" font-size="13" font-weight="700" fill="#d7ffe0">24</text><text x="852" y="126.5" text-anchor="end" font-size="13" fill="#7d9a85">11.8%</text></g>
+<text class="langs-in" style="animation-delay:1.04s" x="252" y="152" text-anchor="end" font-size="14" fill="#d7ffe0">Dart</text>
+<g class="langs-in" style="animation-delay:1.79s"><text x="515" y="151.5" font-size="13" font-weight="700" fill="#d7ffe0">24</text><text x="852" y="151.5" text-anchor="end" font-size="13" fill="#7d9a85">11.8%</text></g>
+<text class="langs-in" style="animation-delay:1.11s" x="252" y="177" text-anchor="end" font-size="14" fill="#d7ffe0">Vue</text>
+<g class="langs-in" style="animation-delay:1.86s"><text x="495" y="176.5" font-size="13" font-weight="700" fill="#d7ffe0">22</text><text x="852" y="176.5" text-anchor="end" font-size="13" fill="#7d9a85">10.8%</text></g>
+<text class="langs-in" style="animation-delay:1.18s" x="252" y="202" text-anchor="end" font-size="14" fill="#d7ffe0">HTML</text>
+<g class="langs-in" style="animation-delay:1.93s"><text x="465" y="201.5" font-size="13" font-weight="700" fill="#d7ffe0">19</text><text x="852" y="201.5" text-anchor="end" font-size="13" fill="#7d9a85">9.3%</text></g>
+<text class="langs-in" style="animation-delay:1.25s" x="252" y="227" text-anchor="end" font-size="14" fill="#d7ffe0">JavaScript</text>
+<g class="langs-in" style="animation-delay:2.00s"><text x="445" y="226.5" font-size="13" font-weight="700" fill="#d7ffe0">17</text><text x="852" y="226.5" text-anchor="end" font-size="13" fill="#7d9a85">8.3%</text></g>
+<text class="langs-in" style="animation-delay:1.32s" x="252" y="252" text-anchor="end" font-size="14" fill="#d7ffe0">Blade</text>
+<g class="langs-in" style="animation-delay:2.07s"><text x="375" y="251.5" font-size="13" font-weight="700" fill="#d7ffe0">10</text><text x="852" y="251.5" text-anchor="end" font-size="13" fill="#7d9a85">4.9%</text></g>
+<text class="langs-in" style="animation-delay:1.39s" x="252" y="277" text-anchor="end" font-size="14" fill="#d7ffe0">Python</text>
+<g class="langs-in" style="animation-delay:2.14s"><text x="355" y="276.5" font-size="13" font-weight="700" fill="#d7ffe0">8</text><text x="852" y="276.5" text-anchor="end" font-size="13" fill="#7d9a85">3.9%</text></g>
+<text class="langs-in" style="animation-delay:1.46s" x="252" y="302" text-anchor="end" font-size="14" fill="#d7ffe0">Java</text>
+<g class="langs-in" style="animation-delay:2.21s"><text x="355" y="301.5" font-size="13" font-weight="700" fill="#d7ffe0">8</text><text x="852" y="301.5" text-anchor="end" font-size="13" fill="#7d9a85">3.9%</text></g>
+<text class="langs-in" style="animation-delay:1.53s" x="252" y="327" text-anchor="end" font-size="14" fill="#d7ffe0">CSS</text>
+<g class="langs-in" style="animation-delay:2.28s"><text x="315" y="326.5" font-size="13" font-weight="700" fill="#d7ffe0">4</text><text x="852" y="326.5" text-anchor="end" font-size="13" fill="#7d9a85">2.0%</text></g>
+<text class="langs-in" style="animation-delay:1.60s" x="252" y="351.5" text-anchor="end" font-size="13" fill="#7d9a85">Swift · C++ · Go · Kotlin</text>
+<g class="langs-in" style="animation-delay:2.35s"><text x="345" y="351.5" font-size="13" font-weight="700" fill="#d7ffe0">7</text><text x="852" y="351.5" text-anchor="end" font-size="13" fill="#7d9a85">3.4%</text></g>
+<g class="langs-bar" style="animation-delay:1.05s"><rect class="langs-pulse" x="268" y="91" width="468" height="12" rx="2" fill="#00ff41" opacity=".5" filter="url(#langs-glow)"/></g>
+<g mask="url(#langs-led)">
+<rect class="langs-bar" style="animation-delay:1.05s" x="268" y="91" width="470" height="12" fill="#00ff41" opacity="1"/>
+<rect class="langs-in" style="animation-delay:1.55s" x="728" y="91" width="10" height="12" fill="#b9ffc9"/>
+<rect class="langs-in" style="animation-delay:.95s" x="548" y="116" width="190" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.12s" x="268" y="116" width="240" height="12" fill="#39d353" opacity="0.95"/>
+<rect class="langs-in" style="animation-delay:1.62s" x="498" y="116" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="548" y="141" width="190" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.19s" x="268" y="141" width="240" height="12" fill="#39d353" opacity="0.95"/>
+<rect class="langs-in" style="animation-delay:1.69s" x="498" y="141" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="528" y="166" width="210" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.26s" x="268" y="166" width="220" height="12" fill="#39d353" opacity="0.88"/>
+<rect class="langs-in" style="animation-delay:1.76s" x="478" y="166" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="498" y="191" width="240" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.33s" x="268" y="191" width="190" height="12" fill="#39d353" opacity="0.82"/>
+<rect class="langs-in" style="animation-delay:1.83s" x="448" y="191" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="478" y="216" width="260" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.40s" x="268" y="216" width="170" height="12" fill="#39d353" opacity="0.76"/>
+<rect class="langs-in" style="animation-delay:1.90s" x="428" y="216" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="408" y="241" width="330" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.47s" x="268" y="241" width="100" height="12" fill="#39d353" opacity="0.68"/>
+<rect class="langs-in" style="animation-delay:1.97s" x="358" y="241" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="378" y="266" width="360" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.54s" x="268" y="266" width="80" height="12" fill="#39d353" opacity="0.62"/>
+<rect class="langs-in" style="animation-delay:2.04s" x="338" y="266" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="378" y="291" width="360" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.61s" x="268" y="291" width="80" height="12" fill="#39d353" opacity="0.62"/>
+<rect class="langs-in" style="animation-delay:2.11s" x="338" y="291" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="338" y="316" width="400" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.68s" x="268" y="316" width="40" height="12" fill="#39d353" opacity="0.55"/>
+<rect class="langs-in" style="animation-delay:2.18s" x="298" y="316" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-in" style="animation-delay:.95s" x="368" y="341" width="370" height="12" fill="#0f3d1e" opacity=".6"/>
+<rect class="langs-bar" style="animation-delay:1.75s" x="268" y="341" width="70" height="12" fill="#39d353" opacity="0.5"/>
+<rect class="langs-in" style="animation-delay:2.25s" x="328" y="341" width="10" height="12" fill="#00ff41"/>
+<rect class="langs-shine" x="138" y="91" width="130" height="12" fill="url(#langs-shineg)"/>
+</g>
+<path d="M28 391.5H852" stroke="#14261a"/>
+<text class="langs-in" style="animation-delay:2.6s" x="28" y="416" font-size="13" fill="#7d9a85"><tspan fill="#d7ffe0">204</tspan> original repos <tspan fill="#4a6352">&#183;</tspan> <tspan fill="#d7ffe0">14</tspan> languages <tspan fill="#4a6352">&#183;</tspan> PHP + Blade = <tspan fill="#ffb000">57</tspan> Laravel-world repos</text>
+<rect width="880" height="440" fill="url(#langs-scan)"/>
+<rect class="langs-sweep" x="-200" y="37" width="200" height="403" fill="url(#langs-sweepg)"/>
+</g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 210" width="430" height="210" role="img" aria-label="ignite: Web artisan meets Go performance. Full-stack Go web framework: routing, ORM, auth, queues, events, scheduling, mail. (Go; 33 packages, 812+ tests, 43k+ LOC)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>ignite - Web artisan meets Go performance.</title>
+<defs>
+<linearGradient id="card-ignite-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0d1410"/></linearGradient>
+<radialGradient id="card-ignite-halo" cx="380" cy="171" r="130" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00ff41" stop-opacity=".1"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></radialGradient>
+<linearGradient id="card-ignite-rule" x1="22" y1="0" x2="340" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1c3a23"/><stop offset=".7" stop-color="#14261a"/><stop offset="1" stop-color="#14261a" stop-opacity="0"/></linearGradient>
+<pattern id="card-ignite-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00ff41" opacity=".035"/></pattern>
+<filter id="card-ignite-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="card-ignite-soft" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+<clipPath id="card-ignite-clip"><rect x="1" y="1" width="428" height="208" rx="11.5"/></clipPath>
+<clipPath id="card-ignite-clipo"><rect width="430" height="210" rx="12.5"/></clipPath>
+</defs>
+<style>
+.card-ignite-in{animation:card-ignite-in .5s cubic-bezier(.2,.7,.2,1) both}
+@keyframes card-ignite-in{from{opacity:0;transform:translateY(5px)}}
+.card-ignite-ti{animation:card-ignite-ti .55s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes card-ignite-ti{from{opacity:0;transform:translateX(-8px)}}
+.card-ignite-br{stroke-dasharray:30;animation:card-ignite-br .7s ease-out both}
+@keyframes card-ignite-br{from{stroke-dashoffset:30}}
+.card-ignite-hl{transform-origin:22px 150px;animation:card-ignite-hl .7s ease-out 1.1s both}
+@keyframes card-ignite-hl{from{transform:scaleX(0)}}
+.card-ignite-gl{transform-origin:380px 171px;animation:card-ignite-gl .8s cubic-bezier(.2,.8,.2,1) .9s both}
+@keyframes card-ignite-gl{from{opacity:0;transform:scale(.7)}}
+.card-ignite-fd{animation:card-ignite-fd 1.2s ease-out .8s both}
+@keyframes card-ignite-fd{from{opacity:0}}
+.card-ignite-pulse{animation:card-ignite-pulse 5.4s ease-in-out -0s infinite}
+@keyframes card-ignite-pulse{0%,100%{opacity:.1}50%{opacity:.36}}
+.card-ignite-pulse2{animation:card-ignite-pulse2 5.4s ease-in-out -0s infinite}
+@keyframes card-ignite-pulse2{0%,100%{opacity:.02}50%{opacity:.08}}
+.card-ignite-beam{opacity:0;animation:card-ignite-on 1.2s ease-out 1.8s forwards}
+@keyframes card-ignite-on{to{opacity:1}}
+.card-ignite-bm{animation:card-ignite-bm 11s linear infinite}
+@keyframes card-ignite-bm{from{stroke-dashoffset:0}to{stroke-dashoffset:-1255.4}}
+.card-ignite-cur{animation:card-ignite-cur 1.1s steps(1,end) infinite}
+@keyframes card-ignite-cur{50%{fill-opacity:0}}
+.card-ignite-fo{transform-box:fill-box;transform-origin:50% 100%;animation:card-ignite-fl 1.7s ease-in-out infinite alternate}
+.card-ignite-fi{transform-box:fill-box;transform-origin:50% 100%;animation:card-ignite-fl 1.1s ease-in-out -.4s infinite alternate}
+@keyframes card-ignite-fl{from{transform:scale(1,1)}to{transform:scale(.94,1.07)}}
+.card-ignite-sp{animation:card-ignite-sp 2.6s ease-out infinite}
+.card-ignite-s2{animation-delay:-.9s}.card-ignite-s3{animation-delay:-1.7s}
+@keyframes card-ignite-sp{0%{transform:translateY(6px);opacity:0}25%{opacity:.95}100%{transform:translateY(-10px);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="429" height="209" rx="12" fill="url(#card-ignite-bg)" stroke="#1c3a23"/>
+<g clip-path="url(#card-ignite-clip)"><rect width="430" height="210" fill="url(#card-ignite-halo)"/><rect width="430" height="210" fill="url(#card-ignite-scan)"/></g>
+<g class="card-ignite-fd" fill="none" stroke="#1f7a3a" stroke-width="1.5" stroke-linecap="round"><path d="M328 143h.01M328 151h.01M336 135h.01M344 127h.01M352 119h.01M360 119h.01M368 111h.01M368 119h.01M376 111h.01M384 111h.01M392 111h.01M392 119h.01M400 119h.01M408 119h.01M416 127h.01" stroke-opacity=".13"/><path d="M336 143h.01M336 151h.01M344 135h.01M344 143h.01M344 199h.01M352 127h.01M352 135h.01M360 127h.01M368 127h.01M376 119h.01M376 127h.01M384 119h.01M384 127h.01M392 127h.01M400 127h.01M408 127h.01M408 135h.01M416 135h.01M416 143h.01M416 199h.01" stroke-opacity=".28"/><path d="M344 151h.01M344 159h.01M344 167h.01M344 175h.01M344 183h.01M344 191h.01M352 143h.01M352 151h.01M352 159h.01M352 183h.01M352 191h.01M352 199h.01M360 135h.01M360 143h.01M360 199h.01M368 135h.01M368 143h.01M368 199h.01M376 135h.01M384 135h.01M392 135h.01M392 143h.01M392 199h.01M400 135h.01M400 143h.01M400 199h.01M408 143h.01M408 151h.01M408 159h.01M408 183h.01M408 191h.01M408 199h.01M416 151h.01M416 159h.01M416 167h.01M416 175h.01M416 183h.01M416 191h.01" stroke-opacity=".5"/><path d="M352 167h.01M352 175h.01M360 151h.01M360 159h.01M360 167h.01M360 175h.01M360 183h.01M360 191h.01M368 151h.01M368 159h.01M368 167h.01M368 175h.01M368 183h.01M368 191h.01M376 143h.01M376 151h.01M376 159h.01M376 167h.01M376 175h.01M376 183h.01M376 191h.01M376 199h.01M384 143h.01M384 151h.01M384 159h.01M384 167h.01M384 175h.01M384 183h.01M384 191h.01M384 199h.01M392 151h.01M392 159h.01M392 167h.01M392 175h.01M392 183h.01M392 191h.01M400 151h.01M400 159h.01M400 167h.01M400 175h.01M400 183h.01M400 191h.01M408 167h.01M408 175h.01" stroke-opacity=".8"/></g>
+<g fill="none" stroke="#00ff41" clip-path="url(#card-ignite-clipo)"><rect class="card-ignite-pulse2" x=".5" y=".5" width="429" height="209" rx="12" stroke-width="9" opacity=".07"/><rect class="card-ignite-pulse2" x=".5" y=".5" width="429" height="209" rx="12" stroke-width="4" opacity=".07"/><rect class="card-ignite-pulse" x=".5" y=".5" width="429" height="209" rx="12" opacity=".24"/></g>
+<g class="card-ignite-beam" fill="none" clip-path="url(#card-ignite-clipo)">
+<path class="card-ignite-bm" style="animation-delay:-0s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".1" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="170 1085.4"/>
+<path class="card-ignite-bm" style="animation-delay:-0.44s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".16" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="120 1135.4"/>
+<path class="card-ignite-bm" style="animation-delay:-0.77s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".24" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="82 1173.4"/>
+<path class="card-ignite-bm" style="animation-delay:-1.03s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".36" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="52 1203.4"/>
+<path class="card-ignite-bm" style="animation-delay:-1.24s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".6" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="28 1227.4"/>
+<path class="card-ignite-bm" style="animation-delay:-1.3s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".045" stroke-width="16" stroke-linecap="round" stroke-dasharray="34 1221.4"/>
+<path class="card-ignite-bm" style="animation-delay:-1.33s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".07" stroke-width="10" stroke-linecap="round" stroke-dasharray="26 1229.4"/>
+<path class="card-ignite-bm" style="animation-delay:-1.37s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".12" stroke-width="5" stroke-linecap="round" stroke-dasharray="18 1237.4"/>
+<path class="card-ignite-bm" style="animation-delay:-1.38s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#a8ffbe" stroke-opacity=".95" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="13 1242.4"/>
+</g>
+<path class="card-ignite-br" d="M9.5 24V15.5a6 6 0 0 1 6-6H24" fill="none" stroke="#00ff41" stroke-width="1.5" stroke-linecap="round" filter="url(#card-ignite-glow)"/>
+<text class="card-ignite-in" style="animation-delay:.1s" x="22" y="38" font-size="13" fill="#4a6352">~/public/<tspan fill="#7d9a85">ignite</tspan></text>
+<g class="card-ignite-in" style="animation-delay:.2s"><rect x="360.5" y="21.5" width="48" height="24" rx="12" fill="#0f3d1e" fill-opacity=".22" stroke="#1c3a23"/><circle cx="373" cy="33.5" r="3.5" fill="#00e5ff"/><text x="383" y="38" font-size="13" textLength="15" lengthAdjust="spacing" fill="#d7ffe0">Go</text></g>
+<g class="card-ignite-ti"><text x="22" y="73" font-size="22" font-weight="700" fill="#00ff41" opacity=".55" filter="url(#card-ignite-soft)">ignite</text>
+<text x="22" y="73" font-size="22" font-weight="700" fill="#00ff41">ignite<tspan class="card-ignite-cur" fill="#39d353" font-weight="400">_</tspan></text></g>
+<text class="card-ignite-in" style="animation-delay:.75s" x="22" y="97" font-size="13.5" fill="#d7ffe0">Web artisan meets Go performance.</text>
+<text class="card-ignite-in" style="animation-delay:.9s" x="22" y="118" font-size="13.5" fill="#7d9a85">Full-stack Go web framework: routing, ORM,</text>
+<text class="card-ignite-in" style="animation-delay:1s" x="22" y="136" font-size="13.5" fill="#7d9a85">auth, queues, events, scheduling, mail.</text>
+<path class="card-ignite-hl" d="M22 150.5H340" stroke="url(#card-ignite-rule)"/>
+<g class="card-ignite-in" style="animation-delay:1.30s"><rect x="22.5" y="164.5" width="102" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="31.5" y="181" font-size="13" textLength="84" lengthAdjust="spacing" fill="#39d353">33 packages</text></g>
+<g class="card-ignite-in" style="animation-delay:1.41s"><rect x="131.5" y="164.5" width="94" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="140.5" y="181" font-size="13" textLength="76" lengthAdjust="spacing" fill="#39d353">812+ tests</text></g>
+<g class="card-ignite-in" style="animation-delay:1.52s"><rect x="232.5" y="164.5" width="79" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="241.5" y="181" font-size="13" textLength="61" lengthAdjust="spacing" fill="#39d353">43k+ LOC</text></g>
+<g class="card-ignite-gl"><g transform="translate(352 143) scale(1.077)" fill="none" stroke="#00ff41" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" filter="url(#card-ignite-glow)">
+<path class="card-ignite-fo" d="M25 6C29 16 41 21 41 34A16 16 0 0 1 9 34C9 27 13 22 16.5 17C17.5 22.5 19.5 25 22.8 25C21.8 18 22 11 25 6Z" fill="#00ff41" fill-opacity=".05"/>
+<path class="card-ignite-fi" d="M25 31C28 35.5 31.5 37 31.5 41.5A6.5 6.5 0 0 1 18.5 41.5C18.5 37 22.5 35.5 25 31Z" stroke="#ffb000" fill="#ffb000" fill-opacity=".14"/>
+<g fill="#ffb000" stroke="none"><circle class="card-ignite-sp" cx="44" cy="13" r="1.3" opacity=".75"/><circle class="card-ignite-sp card-ignite-s2" cx="8" cy="15" r="1.1" opacity=".55"/><circle class="card-ignite-sp card-ignite-s3" cx="35" cy="5" r="1" opacity=".65"/></g>
+</g></g>
+</svg>

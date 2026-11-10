@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 210" width="430" height="210" role="img" aria-label="QRForge: Self-hosted QR platform. Dynamic short links, hosted pages, branded designs, scan analytics and a REST API. (Next.js; 19 code types, analytics, REST API)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>QRForge - Self-hosted QR platform.</title>
+<defs>
+<linearGradient id="card-qrforge-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0d1410"/></linearGradient>
+<radialGradient id="card-qrforge-halo" cx="380" cy="171" r="130" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00ff41" stop-opacity=".1"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></radialGradient>
+<linearGradient id="card-qrforge-rule" x1="22" y1="0" x2="340" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1c3a23"/><stop offset=".7" stop-color="#14261a"/><stop offset="1" stop-color="#14261a" stop-opacity="0"/></linearGradient>
+<pattern id="card-qrforge-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00ff41" opacity=".035"/></pattern>
+<filter id="card-qrforge-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="card-qrforge-soft" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+<clipPath id="card-qrforge-clip"><rect x="1" y="1" width="428" height="208" rx="11.5"/></clipPath>
+<clipPath id="card-qrforge-clipo"><rect width="430" height="210" rx="12.5"/></clipPath>
+</defs>
+<style>
+.card-qrforge-in{animation:card-qrforge-in .5s cubic-bezier(.2,.7,.2,1) both}
+@keyframes card-qrforge-in{from{opacity:0;transform:translateY(5px)}}
+.card-qrforge-ti{animation:card-qrforge-ti .55s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes card-qrforge-ti{from{opacity:0;transform:translateX(-8px)}}
+.card-qrforge-br{stroke-dasharray:30;animation:card-qrforge-br .7s ease-out both}
+@keyframes card-qrforge-br{from{stroke-dashoffset:30}}
+.card-qrforge-hl{transform-origin:22px 150px;animation:card-qrforge-hl .7s ease-out 1.1s both}
+@keyframes card-qrforge-hl{from{transform:scaleX(0)}}
+.card-qrforge-gl{transform-origin:380px 171px;animation:card-qrforge-gl .8s cubic-bezier(.2,.8,.2,1) .9s both}
+@keyframes card-qrforge-gl{from{opacity:0;transform:scale(.7)}}
+.card-qrforge-fd{animation:card-qrforge-fd 1.2s ease-out .8s both}
+@keyframes card-qrforge-fd{from{opacity:0}}
+.card-qrforge-pulse{animation:card-qrforge-pulse 5.4s ease-in-out -5.7s infinite}
+@keyframes card-qrforge-pulse{0%,100%{opacity:.1}50%{opacity:.36}}
+.card-qrforge-pulse2{animation:card-qrforge-pulse2 5.4s ease-in-out -5.7s infinite}
+@keyframes card-qrforge-pulse2{0%,100%{opacity:.02}50%{opacity:.08}}
+.card-qrforge-beam{opacity:0;animation:card-qrforge-on 1.2s ease-out 1.8s forwards}
+@keyframes card-qrforge-on{to{opacity:1}}
+.card-qrforge-bm{animation:card-qrforge-bm 11s linear infinite}
+@keyframes card-qrforge-bm{from{stroke-dashoffset:0}to{stroke-dashoffset:-1255.4}}
+.card-qrforge-cur{animation:card-qrforge-cur 1.1s steps(1,end) infinite}
+@keyframes card-qrforge-cur{50%{fill-opacity:0}}
+.card-qrforge-m{animation:card-qrforge-fk 3.4s steps(1,end) infinite}
+.card-qrforge-m2{animation-duration:2.6s;animation-delay:-1.1s}.card-qrforge-m3{animation-duration:4.3s;animation-delay:-2.2s}.card-qrforge-m4{animation-duration:5.1s;animation-delay:-.6s}
+@keyframes card-qrforge-fk{0%{opacity:1}38%{opacity:.15}55%{opacity:1}80%{opacity:.4}90%{opacity:1}}
+.card-qrforge-sc{animation:card-qrforge-sc 5.2s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes card-qrforge-sc{0%{transform:translateY(0);opacity:0}8%{opacity:.85}42%{transform:translateY(50px);opacity:.85}50%,100%{transform:translateY(50px);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="429" height="209" rx="12" fill="url(#card-qrforge-bg)" stroke="#1c3a23"/>
+<g clip-path="url(#card-qrforge-clip)"><rect width="430" height="210" fill="url(#card-qrforge-halo)"/><rect width="430" height="210" fill="url(#card-qrforge-scan)"/></g>
+<g class="card-qrforge-fd" fill="none" stroke="#1f7a3a" stroke-width="1.5" stroke-linecap="round"><path d="M328 143h.01M328 151h.01M336 135h.01M344 127h.01M352 119h.01M360 119h.01M368 111h.01M368 119h.01M376 111h.01M384 111h.01M392 111h.01M392 119h.01M400 119h.01M408 119h.01M416 127h.01" stroke-opacity=".13"/><path d="M336 143h.01M336 151h.01M344 135h.01M344 143h.01M344 199h.01M352 127h.01M352 135h.01M360 127h.01M368 127h.01M376 119h.01M376 127h.01M384 119h.01M384 127h.01M392 127h.01M400 127h.01M408 127h.01M408 135h.01M416 135h.01M416 143h.01M416 199h.01" stroke-opacity=".28"/><path d="M344 151h.01M344 159h.01M344 167h.01M344 175h.01M344 183h.01M344 191h.01M352 143h.01M352 151h.01M352 159h.01M352 183h.01M352 191h.01M352 199h.01M360 135h.01M360 143h.01M360 199h.01M368 135h.01M368 143h.01M368 199h.01M376 135h.01M384 135h.01M392 135h.01M392 143h.01M392 199h.01M400 135h.01M400 143h.01M400 199h.01M408 143h.01M408 151h.01M408 159h.01M408 183h.01M408 191h.01M408 199h.01M416 151h.01M416 159h.01M416 167h.01M416 175h.01M416 183h.01M416 191h.01" stroke-opacity=".5"/><path d="M352 167h.01M352 175h.01M360 151h.01M360 159h.01M360 167h.01M360 175h.01M360 183h.01M360 191h.01M368 151h.01M368 159h.01M368 167h.01M368 175h.01M368 183h.01M368 191h.01M376 143h.01M376 151h.01M376 159h.01M376 167h.01M376 175h.01M376 183h.01M376 191h.01M376 199h.01M384 143h.01M384 151h.01M384 159h.01M384 167h.01M384 175h.01M384 183h.01M384 191h.01M384 199h.01M392 151h.01M392 159h.01M392 167h.01M392 175h.01M392 183h.01M392 191h.01M400 151h.01M400 159h.01M400 167h.01M400 175h.01M400 183h.01M400 191h.01M408 167h.01M408 175h.01" stroke-opacity=".8"/></g>
+<g fill="none" stroke="#00ff41" clip-path="url(#card-qrforge-clipo)"><rect class="card-qrforge-pulse2" x=".5" y=".5" width="429" height="209" rx="12" stroke-width="9" opacity=".07"/><rect class="card-qrforge-pulse2" x=".5" y=".5" width="429" height="209" rx="12" stroke-width="4" opacity=".07"/><rect class="card-qrforge-pulse" x=".5" y=".5" width="429" height="209" rx="12" opacity=".24"/></g>
+<g class="card-qrforge-beam" fill="none" clip-path="url(#card-qrforge-clipo)">
+<path class="card-qrforge-bm" style="animation-delay:-5.7s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".1" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="170 1085.4"/>
+<path class="card-qrforge-bm" style="animation-delay:-6.14s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".16" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="120 1135.4"/>
+<path class="card-qrforge-bm" style="animation-delay:-6.47s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".24" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="82 1173.4"/>
+<path class="card-qrforge-bm" style="animation-delay:-6.73s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".36" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="52 1203.4"/>
+<path class="card-qrforge-bm" style="animation-delay:-6.94s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".6" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="28 1227.4"/>
+<path class="card-qrforge-bm" style="animation-delay:-7s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".045" stroke-width="16" stroke-linecap="round" stroke-dasharray="34 1221.4"/>
+<path class="card-qrforge-bm" style="animation-delay:-7.03s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".07" stroke-width="10" stroke-linecap="round" stroke-dasharray="26 1229.4"/>
+<path class="card-qrforge-bm" style="animation-delay:-7.07s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".12" stroke-width="5" stroke-linecap="round" stroke-dasharray="18 1237.4"/>
+<path class="card-qrforge-bm" style="animation-delay:-7.08s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#a8ffbe" stroke-opacity=".95" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="13 1242.4"/>
+</g>
+<path class="card-qrforge-br" d="M9.5 24V15.5a6 6 0 0 1 6-6H24" fill="none" stroke="#00ff41" stroke-width="1.5" stroke-linecap="round" filter="url(#card-qrforge-glow)"/>
+<text class="card-qrforge-in" style="animation-delay:.1s" x="22" y="38" font-size="13" fill="#4a6352">~/public/<tspan fill="#7d9a85">qr-forge</tspan></text>
+<g class="card-qrforge-in" style="animation-delay:.2s"><rect x="322.5" y="21.5" width="86" height="24" rx="12" fill="#0f3d1e" fill-opacity=".22" stroke="#1c3a23"/><circle cx="335" cy="33.5" r="3.5" fill="#d7ffe0"/><text x="345" y="38" font-size="13" textLength="53" lengthAdjust="spacing" fill="#d7ffe0">Next.js</text></g>
+<g class="card-qrforge-ti"><text x="22" y="73" font-size="22" font-weight="700" fill="#00ff41" opacity=".55" filter="url(#card-qrforge-soft)">QRForge</text>
+<text x="22" y="73" font-size="22" font-weight="700" fill="#00ff41">QRForge<tspan class="card-qrforge-cur" fill="#39d353" font-weight="400">_</tspan></text></g>
+<text class="card-qrforge-in" style="animation-delay:.75s" x="22" y="97" font-size="13.5" fill="#d7ffe0">Self-hosted QR platform.</text>
+<text class="card-qrforge-in" style="animation-delay:.9s" x="22" y="118" font-size="13.5" fill="#7d9a85">Dynamic short links, hosted pages, branded</text>
+<text class="card-qrforge-in" style="animation-delay:1s" x="22" y="136" font-size="13.5" fill="#7d9a85">designs, scan analytics and a REST API.</text>
+<path class="card-qrforge-hl" d="M22 150.5H340" stroke="url(#card-qrforge-rule)"/>
+<g class="card-qrforge-in" style="animation-delay:1.30s"><rect x="22.5" y="164.5" width="117" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="31.5" y="181" font-size="13" textLength="99" lengthAdjust="spacing" fill="#39d353">19 code types</text></g>
+<g class="card-qrforge-in" style="animation-delay:1.41s"><rect x="146.5" y="164.5" width="86" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="155.5" y="181" font-size="13" textLength="68" lengthAdjust="spacing" fill="#39d353">analytics</text></g>
+<g class="card-qrforge-in" style="animation-delay:1.52s"><rect x="239.5" y="164.5" width="79" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="248.5" y="181" font-size="13" textLength="61" lengthAdjust="spacing" fill="#39d353">REST API</text></g>
+<g class="card-qrforge-gl"><g transform="translate(352 143) scale(1.077)" fill="none" stroke="#00ff41" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" filter="url(#card-qrforge-glow)">
+<rect x="1" y="1" width="16" height="16" rx="2.5"/><rect x="6" y="6" width="6" height="6" rx="1" fill="#00ff41" stroke="none"/>
+<rect x="35" y="1" width="16" height="16" rx="2.5"/><rect x="40" y="6" width="6" height="6" rx="1" fill="#00ff41" stroke="none"/>
+<rect x="1" y="35" width="16" height="16" rx="2.5"/><rect x="6" y="40" width="6" height="6" rx="1" fill="#00ff41" stroke="none"/>
+<g fill="#00ff41" stroke="none">
+<rect x="21" y="1" width="4" height="4" rx=".8"/>
+<rect x="21" y="7" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m" x="27" y="1" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m3" x="27" y="7" width="4" height="4" rx=".8"/>
+<rect x="3" y="27" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m3" x="9" y="27" width="4" height="4" rx=".8"/>
+<rect x="21" y="21" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m2" x="21" y="27" width="4" height="4" rx=".8"/>
+<rect x="33" y="21" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m4" x="45" y="21" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m4" x="21" y="35" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m3" x="27" y="35" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m2" x="33" y="35" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m2" x="33" y="41" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m2" x="33" y="47" width="4" height="4" rx=".8"/>
+<rect x="39" y="35" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m4" x="39" y="41" width="4" height="4" rx=".8"/>
+<rect x="39" y="47" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m card-qrforge-m3" x="45" y="35" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m" x="45" y="41" width="4" height="4" rx=".8"/>
+<rect class="card-qrforge-m" x="45" y="47" width="4" height="4" rx=".8"/>
+</g>
+<path class="card-qrforge-sc" d="M-2 1h56" stroke="#00e5ff" stroke-width="1.2" opacity="0"/>
+</g></g>
+</svg>

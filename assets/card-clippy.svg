@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 210" width="430" height="210" role="img" aria-label="Clippy: Clipboard history in your menu bar. Recent clips one shortcut away. No Dock icon, works on every display. (Swift; Opt+Cmd+V, menu bar, macOS 14+)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>Clippy - Clipboard history in your menu bar.</title>
+<defs>
+<linearGradient id="card-clippy-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0d1410"/></linearGradient>
+<radialGradient id="card-clippy-halo" cx="380" cy="171" r="130" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00ff41" stop-opacity=".1"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></radialGradient>
+<linearGradient id="card-clippy-rule" x1="22" y1="0" x2="340" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1c3a23"/><stop offset=".7" stop-color="#14261a"/><stop offset="1" stop-color="#14261a" stop-opacity="0"/></linearGradient>
+<pattern id="card-clippy-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00ff41" opacity=".035"/></pattern>
+<filter id="card-clippy-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="card-clippy-soft" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+<clipPath id="card-clippy-clip"><rect x="1" y="1" width="428" height="208" rx="11.5"/></clipPath>
+<clipPath id="card-clippy-clipo"><rect width="430" height="210" rx="12.5"/></clipPath>
+</defs>
+<style>
+.card-clippy-in{animation:card-clippy-in .5s cubic-bezier(.2,.7,.2,1) both}
+@keyframes card-clippy-in{from{opacity:0;transform:translateY(5px)}}
+.card-clippy-ti{animation:card-clippy-ti .55s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes card-clippy-ti{from{opacity:0;transform:translateX(-8px)}}
+.card-clippy-br{stroke-dasharray:30;animation:card-clippy-br .7s ease-out both}
+@keyframes card-clippy-br{from{stroke-dashoffset:30}}
+.card-clippy-hl{transform-origin:22px 150px;animation:card-clippy-hl .7s ease-out 1.1s both}
+@keyframes card-clippy-hl{from{transform:scaleX(0)}}
+.card-clippy-gl{transform-origin:380px 171px;animation:card-clippy-gl .8s cubic-bezier(.2,.8,.2,1) .9s both}
+@keyframes card-clippy-gl{from{opacity:0;transform:scale(.7)}}
+.card-clippy-fd{animation:card-clippy-fd 1.2s ease-out .8s both}
+@keyframes card-clippy-fd{from{opacity:0}}
+.card-clippy-pulse{animation:card-clippy-pulse 5.4s ease-in-out -7.6s infinite}
+@keyframes card-clippy-pulse{0%,100%{opacity:.1}50%{opacity:.36}}
+.card-clippy-pulse2{animation:card-clippy-pulse2 5.4s ease-in-out -7.6s infinite}
+@keyframes card-clippy-pulse2{0%,100%{opacity:.02}50%{opacity:.08}}
+.card-clippy-beam{opacity:0;animation:card-clippy-on 1.2s ease-out 1.8s forwards}
+@keyframes card-clippy-on{to{opacity:1}}
+.card-clippy-bm{animation:card-clippy-bm 11s linear infinite}
+@keyframes card-clippy-bm{from{stroke-dashoffset:0}to{stroke-dashoffset:-1255.4}}
+.card-clippy-cur{animation:card-clippy-cur 1.1s steps(1,end) infinite}
+@keyframes card-clippy-cur{50%{fill-opacity:0}}
+.card-clippy-ln{stroke-dasharray:26;animation:card-clippy-l1 5.6s ease-in-out infinite}
+.card-clippy-l2{animation-name:card-clippy-l2}.card-clippy-l3{animation-name:card-clippy-l3}
+@keyframes card-clippy-l1{0%{stroke-dashoffset:26;opacity:1}14%,88%{stroke-dashoffset:0;opacity:1}98%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes card-clippy-l2{0%,12%{stroke-dashoffset:26;opacity:1}28%,88%{stroke-dashoffset:0;opacity:1}98%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes card-clippy-l3{0%,26%{stroke-dashoffset:26;opacity:1}42%,88%{stroke-dashoffset:0;opacity:1}98%,100%{stroke-dashoffset:0;opacity:0}}
+.card-clippy-ck{animation:card-clippy-ck 5.6s ease-in-out infinite}
+@keyframes card-clippy-ck{0%,40%{opacity:.2}48%,88%{opacity:1}98%,100%{opacity:.2}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="429" height="209" rx="12" fill="url(#card-clippy-bg)" stroke="#1c3a23"/>
+<g clip-path="url(#card-clippy-clip)"><rect width="430" height="210" fill="url(#card-clippy-halo)"/><rect width="430" height="210" fill="url(#card-clippy-scan)"/></g>
+<g class="card-clippy-fd" fill="none" stroke="#1f7a3a" stroke-width="1.5" stroke-linecap="round"><path d="M328 143h.01M328 151h.01M336 135h.01M344 127h.01M352 119h.01M360 119h.01M368 111h.01M368 119h.01M376 111h.01M384 111h.01M392 111h.01M392 119h.01M400 119h.01M408 119h.01M416 127h.01" stroke-opacity=".13"/><path d="M336 143h.01M336 151h.01M344 135h.01M344 143h.01M344 199h.01M352 127h.01M352 135h.01M360 127h.01M368 127h.01M376 119h.01M376 127h.01M384 119h.01M384 127h.01M392 127h.01M400 127h.01M408 127h.01M408 135h.01M416 135h.01M416 143h.01M416 199h.01" stroke-opacity=".28"/><path d="M344 151h.01M344 159h.01M344 167h.01M344 175h.01M344 183h.01M344 191h.01M352 143h.01M352 151h.01M352 159h.01M352 183h.01M352 191h.01M352 199h.01M360 135h.01M360 143h.01M360 199h.01M368 135h.01M368 143h.01M368 199h.01M376 135h.01M384 135h.01M392 135h.01M392 143h.01M392 199h.01M400 135h.01M400 143h.01M400 199h.01M408 143h.01M408 151h.01M408 159h.01M408 183h.01M408 191h.01M408 199h.01M416 151h.01M416 159h.01M416 167h.01M416 175h.01M416 183h.01M416 191h.01" stroke-opacity=".5"/><path d="M352 167h.01M352 175h.01M360 151h.01M360 159h.01M360 167h.01M360 175h.01M360 183h.01M360 191h.01M368 151h.01M368 159h.01M368 167h.01M368 175h.01M368 183h.01M368 191h.01M376 143h.01M376 151h.01M376 159h.01M376 167h.01M376 175h.01M376 183h.01M376 191h.01M376 199h.01M384 143h.01M384 151h.01M384 159h.01M384 167h.01M384 175h.01M384 183h.01M384 191h.01M384 199h.01M392 151h.01M392 159h.01M392 167h.01M392 175h.01M392 183h.01M392 191h.01M400 151h.01M400 159h.01M400 167h.01M400 175h.01M400 183h.01M400 191h.01M408 167h.01M408 175h.01" stroke-opacity=".8"/></g>
+<g fill="none" stroke="#00ff41" clip-path="url(#card-clippy-clipo)"><rect class="card-clippy-pulse2" x=".5" y=".5" width="429" height="209" rx="12" stroke-width="9" opacity=".07"/><rect class="card-clippy-pulse2" x=".5" y=".5" width="429" height="209" rx="12" stroke-width="4" opacity=".07"/><rect class="card-clippy-pulse" x=".5" y=".5" width="429" height="209" rx="12" opacity=".24"/></g>
+<g class="card-clippy-beam" fill="none" clip-path="url(#card-clippy-clipo)">
+<path class="card-clippy-bm" style="animation-delay:-7.6s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".1" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="170 1085.4"/>
+<path class="card-clippy-bm" style="animation-delay:-8.04s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".16" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="120 1135.4"/>
+<path class="card-clippy-bm" style="animation-delay:-8.37s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".24" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="82 1173.4"/>
+<path class="card-clippy-bm" style="animation-delay:-8.63s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".36" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="52 1203.4"/>
+<path class="card-clippy-bm" style="animation-delay:-8.84s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".6" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="28 1227.4"/>
+<path class="card-clippy-bm" style="animation-delay:-8.9s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".045" stroke-width="16" stroke-linecap="round" stroke-dasharray="34 1221.4"/>
+<path class="card-clippy-bm" style="animation-delay:-8.93s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".07" stroke-width="10" stroke-linecap="round" stroke-dasharray="26 1229.4"/>
+<path class="card-clippy-bm" style="animation-delay:-8.97s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".12" stroke-width="5" stroke-linecap="round" stroke-dasharray="18 1237.4"/>
+<path class="card-clippy-bm" style="animation-delay:-8.98s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#a8ffbe" stroke-opacity=".95" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="13 1242.4"/>
+</g>
+<path class="card-clippy-br" d="M9.5 24V15.5a6 6 0 0 1 6-6H24" fill="none" stroke="#00ff41" stroke-width="1.5" stroke-linecap="round" filter="url(#card-clippy-glow)"/>
+<text class="card-clippy-in" style="animation-delay:.1s" x="22" y="38" font-size="13" fill="#4a6352">~/public/<tspan fill="#7d9a85">clippy</tspan></text>
+<g class="card-clippy-in" style="animation-delay:.2s"><rect x="337.5" y="21.5" width="71" height="24" rx="12" fill="#0f3d1e" fill-opacity=".22" stroke="#1c3a23"/><circle cx="350" cy="33.5" r="3.5" fill="#ffb000"/><text x="360" y="38" font-size="13" textLength="38" lengthAdjust="spacing" fill="#d7ffe0">Swift</text></g>
+<g class="card-clippy-ti"><text x="22" y="73" font-size="22" font-weight="700" fill="#00ff41" opacity=".55" filter="url(#card-clippy-soft)">Clippy</text>
+<text x="22" y="73" font-size="22" font-weight="700" fill="#00ff41">Clippy<tspan class="card-clippy-cur" fill="#39d353" font-weight="400">_</tspan></text></g>
+<text class="card-clippy-in" style="animation-delay:.75s" x="22" y="97" font-size="13.5" fill="#d7ffe0">Clipboard history in your menu bar.</text>
+<text class="card-clippy-in" style="animation-delay:.9s" x="22" y="118" font-size="13.5" fill="#7d9a85">Recent clips one shortcut away. No Dock</text>
+<text class="card-clippy-in" style="animation-delay:1s" x="22" y="136" font-size="13.5" fill="#7d9a85">icon, works on every display.</text>
+<path class="card-clippy-hl" d="M22 150.5H340" stroke="url(#card-clippy-rule)"/>
+<g class="card-clippy-in" style="animation-delay:1.30s"><rect x="22.5" y="164.5" width="86" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="31.5" y="181" font-size="13" textLength="68" lengthAdjust="spacing" fill="#39d353">Opt+Cmd+V</text></g>
+<g class="card-clippy-in" style="animation-delay:1.41s"><rect x="115.5" y="164.5" width="79" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="124.5" y="181" font-size="13" textLength="61" lengthAdjust="spacing" fill="#39d353">menu bar</text></g>
+<g class="card-clippy-in" style="animation-delay:1.52s"><rect x="201.5" y="164.5" width="86" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="210.5" y="181" font-size="13" textLength="68" lengthAdjust="spacing" fill="#39d353">macOS 14+</text></g>
+<g class="card-clippy-gl"><g transform="translate(352 143) scale(1.077)" fill="none" stroke="#00ff41" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" filter="url(#card-clippy-glow)">
+<rect x="8" y="7" width="36" height="43" rx="5" fill="#00ff41" fill-opacity=".04"/>
+<rect x="18" y="2" width="16" height="10" rx="3.5" fill="#0a0e0a"/>
+<path class="card-clippy-ln" d="M15 22h22" stroke="#39d353"/>
+<path class="card-clippy-ln card-clippy-l2" d="M15 30h22" stroke="#39d353"/>
+<path class="card-clippy-ln card-clippy-l3" d="M15 38h11" stroke="#39d353"/>
+<circle class="card-clippy-ck" cx="34.5" cy="38" r="1.8" fill="#ffb000" stroke="none"/>
+</g></g>
+</svg>

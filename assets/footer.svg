@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 234" width="880" height="234" role="img" aria-label="Terminal: ping -c 3 sazzadh88. 3 packets transmitted, 3 received, 0% packet loss. Open to collaborations, freelance and product builds: Go, Laravel, Flutter, AI tooling.">
+  <title>ping -c 3 sazzadh88: open to collaborations, freelance and product builds</title>
+  <defs>
+    <linearGradient id="footer-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e0a"/>
+      <stop offset="1" stop-color="#0d1410"/>
+    </linearGradient>
+    <linearGradient id="footer-fade" gradientUnits="userSpaceOnUse" x1="28" y1="0" x2="852" y2="0">
+      <stop offset="0" stop-color="#0f3d1e" stop-opacity="0"/>
+      <stop offset=".1" stop-color="#0f3d1e"/>
+      <stop offset=".9" stop-color="#0f3d1e"/>
+      <stop offset="1" stop-color="#0f3d1e" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="footer-scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#00ff41"/>
+    </pattern>
+    <filter id="footer-glow" filterUnits="userSpaceOnUse" x="0" y="80" width="880" height="150">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="footer-clip"><rect x="0.5" y="0.5" width="879" height="233" rx="12"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 14px; }
+    .k { animation: footer-key .001s steps(1) backwards; }
+    .c { fill-opacity: 0; animation: footer-cell .06s linear; }
+    .l { animation: footer-in .2s ease-out both; }
+    .d { animation: footer-in .5s ease-out both; }
+    .p { opacity: 0; animation: footer-pkt .4s cubic-bezier(.45,0,.55,1); }
+    .r { animation: footer-slide .45s cubic-bezier(.2,.7,.2,1) both; }
+    .w { opacity: 0; animation: footer-wait 3.05s linear; }
+    .u { animation: footer-in .3s ease-out 3.05s both; }
+    .s { animation: footer-amber 3.05s steps(1); }
+    .b { animation: footer-pulse 2.4s ease-in-out infinite; }
+    .cur { animation: footer-blink 1.1s steps(1) 6.20s infinite; }
+    .e { fill: none; stroke-linejoin: round; stroke-linecap: round; }
+    .e1 { animation: footer-run1 6s linear infinite; }
+    .e2 { animation: footer-run2 6s linear infinite; }
+    .e3 { animation: footer-run3 6s linear infinite; }
+    @keyframes footer-key { from { fill-opacity: 0; } }
+    @keyframes footer-cell { from, to { fill-opacity: 1; } }
+    @keyframes footer-in { from { opacity: 0; } }
+    @keyframes footer-slide { from { opacity: 0; transform: translateX(12px); } }
+    @keyframes footer-pkt { 0% { stroke-dashoffset: 5; opacity: 1; } 85% { opacity: 1; } 100% { stroke-dashoffset: -100; opacity: 0; } }
+    @keyframes footer-wait { from, to { opacity: 1; } }
+    @keyframes footer-amber { from { fill: #ffb000; } }
+    @keyframes footer-blink { 50% { opacity: 0; } }
+    @keyframes footer-pulse { 50% { opacity: .3; } }
+    @keyframes footer-run1 { from { stroke-dashoffset: 170; } to { stroke-dashoffset: -1000; } }
+    @keyframes footer-run2 { from { stroke-dashoffset: 80; } to { stroke-dashoffset: -1090; } }
+    @keyframes footer-run3 { from { stroke-dashoffset: 26; } to { stroke-dashoffset: -1144; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="233" rx="12" fill="url(#footer-bg)" stroke="#1c3a23"/>
+  <g clip-path="url(#footer-clip)">
+    <rect width="880" height="234" fill="url(#footer-scan)" opacity=".035"/>
+  </g>
+
+  <circle cx="24" cy="18" r="5.5" fill="#ff5f56"/>
+  <circle cx="44" cy="18" r="5.5" fill="#ffbd2e"/>
+  <circle cx="64" cy="18" r="5.5" fill="#27c93f"/>
+  <text x="440" y="22.5" text-anchor="middle" fill="#7d9a85" style="font-size:13px">sazzad@f9x: ~</text>
+  <g class="s" fill="#00ff41">
+    <circle class="b" cx="849" cy="18" r="6.5" opacity=".16"/>
+    <circle cx="849" cy="18" r="3"/>
+  </g>
+  <text class="w" x="836" y="22.5" text-anchor="end" fill="#7d9a85" style="font-size:13px">connecting</text>
+  <text class="u" x="836" y="22.5" text-anchor="end" fill="#7d9a85" style="font-size:13px">link up</text>
+  <line x1="1" y1="36.5" x2="879" y2="36.5" stroke="#14261a"/>
+  <g transform="translate(0 4)">
+
+  <text x="28" y="60"><tspan fill="#00ff41">sazzad@f9x</tspan><tspan fill="#7d9a85">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#7d9a85">$</tspan><tspan fill="#d7ffe0" dx="8"><tspan class="k" style="animation-delay:0.60s">p</tspan><tspan class="k" style="animation-delay:0.67s">i</tspan><tspan class="k" style="animation-delay:0.73s">n</tspan><tspan class="k" style="animation-delay:0.81s">g</tspan><tspan class="k" style="animation-delay:0.91s"> </tspan><tspan class="k" style="animation-delay:1.00s">-</tspan><tspan class="k" style="animation-delay:1.06s">c</tspan><tspan class="k" style="animation-delay:1.16s"> </tspan><tspan class="k" style="animation-delay:1.24s">3</tspan><tspan class="k" style="animation-delay:1.36s"> </tspan><tspan class="k" style="animation-delay:1.45s">s</tspan><tspan class="k" style="animation-delay:1.51s">a</tspan><tspan class="k" style="animation-delay:1.58s">z</tspan><tspan class="k" style="animation-delay:1.69s">z</tspan><tspan class="k" style="animation-delay:1.75s">a</tspan><tspan class="k" style="animation-delay:1.82s">d</tspan><tspan class="k" style="animation-delay:1.88s">h</tspan><tspan class="k" style="animation-delay:1.97s">8</tspan><tspan class="k" style="animation-delay:2.09s">8</tspan></tspan></text>
+  <text x="28" y="60" aria-hidden="true"><tspan fill-opacity="0">sazzad@f9x:~$</tspan><tspan fill="#00ff41" dx="8"><tspan class="c" style="animation-delay:0.00s;animation-duration:0.60s">&#9608;</tspan><tspan class="c" style="animation-delay:0.60s;animation-duration:0.07s">&#9608;</tspan><tspan class="c" style="animation-delay:0.67s;animation-duration:0.06s">&#9608;</tspan><tspan class="c" style="animation-delay:0.73s;animation-duration:0.08s">&#9608;</tspan><tspan class="c" style="animation-delay:0.81s;animation-duration:0.10s">&#9608;</tspan><tspan class="c" style="animation-delay:0.91s;animation-duration:0.09s">&#9608;</tspan><tspan class="c" style="animation-delay:1.00s;animation-duration:0.06s">&#9608;</tspan><tspan class="c" style="animation-delay:1.06s;animation-duration:0.10s">&#9608;</tspan><tspan class="c" style="animation-delay:1.16s;animation-duration:0.08s">&#9608;</tspan><tspan class="c" style="animation-delay:1.24s;animation-duration:0.12s">&#9608;</tspan><tspan class="c" style="animation-delay:1.36s;animation-duration:0.09s">&#9608;</tspan><tspan class="c" style="animation-delay:1.45s;animation-duration:0.06s">&#9608;</tspan><tspan class="c" style="animation-delay:1.51s;animation-duration:0.07s">&#9608;</tspan><tspan class="c" style="animation-delay:1.58s;animation-duration:0.11s">&#9608;</tspan><tspan class="c" style="animation-delay:1.69s;animation-duration:0.06s">&#9608;</tspan><tspan class="c" style="animation-delay:1.75s;animation-duration:0.07s">&#9608;</tspan><tspan class="c" style="animation-delay:1.82s;animation-duration:0.06s">&#9608;</tspan><tspan class="c" style="animation-delay:1.88s;animation-duration:0.09s">&#9608;</tspan><tspan class="c" style="animation-delay:1.97s;animation-duration:0.12s">&#9608;</tspan><tspan class="c" style="animation-delay:2.09s;animation-duration:0.26s">&#9608;</tspan></tspan></text>
+
+  <g class="l" style="animation-delay:2.40s">
+    <text x="28" y="82" fill="#7d9a85">PING <tspan fill="#d7ffe0">sazzadh88</tspan> (<tspan fill="#00e5ff">github.com</tspan>): 56 data bytes</text>
+  </g>
+  <g class="l" style="animation-delay:3.05s">
+    <text x="28" y="104" fill="#7d9a85">64 bytes: icmp_seq=<tspan fill="#d7ffe0">0</tspan> time=<tspan fill="#d7ffe0">0.42</tspan> ms</text>
+  </g>
+  <path class="d" style="animation-delay:3.17s" d="M346 99.5H640" fill="none" stroke="#1f7a3a" stroke-width="1.5" stroke-dasharray="0.1 8" stroke-linecap="round"/>
+  <path class="p" style="animation-delay:3.11s" d="M346 99.5H640" pathLength="100" fill="none" stroke="#00ff41" stroke-width="2" stroke-dasharray="5 200" stroke-dashoffset="5" stroke-linecap="round" filter="url(#footer-glow)"/>
+  <g class="r" style="animation-delay:3.43s">
+    <text x="852" y="104" text-anchor="end" fill="#39d353">open to collaborations</text>
+  </g>
+  <g class="l" style="animation-delay:3.75s">
+    <text x="28" y="126" fill="#7d9a85">64 bytes: icmp_seq=<tspan fill="#d7ffe0">1</tspan> time=<tspan fill="#d7ffe0">0.39</tspan> ms</text>
+  </g>
+  <path class="d" style="animation-delay:3.87s" d="M346 121.5H590" fill="none" stroke="#1f7a3a" stroke-width="1.5" stroke-dasharray="0.1 8" stroke-linecap="round"/>
+  <path class="p" style="animation-delay:3.81s" d="M346 121.5H590" pathLength="100" fill="none" stroke="#00ff41" stroke-width="2" stroke-dasharray="5 200" stroke-dashoffset="5" stroke-linecap="round" filter="url(#footer-glow)"/>
+  <g class="r" style="animation-delay:4.13s">
+    <text x="852" y="126" text-anchor="end" fill="#39d353">freelance and product builds</text>
+  </g>
+  <g class="l" style="animation-delay:4.45s">
+    <text x="28" y="148" fill="#7d9a85">64 bytes: icmp_seq=<tspan fill="#d7ffe0">2</tspan> time=<tspan fill="#d7ffe0">0.41</tspan> ms</text>
+  </g>
+  <path class="d" style="animation-delay:4.57s" d="M346 143.5H526" fill="none" stroke="#1f7a3a" stroke-width="1.5" stroke-dasharray="0.1 8" stroke-linecap="round"/>
+  <path class="p" style="animation-delay:4.51s" d="M346 143.5H526" pathLength="100" fill="none" stroke="#00ff41" stroke-width="2" stroke-dasharray="5 200" stroke-dashoffset="5" stroke-linecap="round" filter="url(#footer-glow)"/>
+  <g class="r" style="animation-delay:4.83s">
+    <text x="852" y="148" text-anchor="end" fill="#39d353">Go <tspan fill="#1f7a3a">&#183;</tspan> Laravel <tspan fill="#1f7a3a">&#183;</tspan> Flutter <tspan fill="#1f7a3a">&#183;</tspan> AI tooling</text>
+  </g>
+
+  <g class="l" style="animation-delay:5.10s">
+    <text x="28" y="170" fill="#7d9a85"><tspan fill="#4a6352">---</tspan> 3 packets transmitted, 3 received, <tspan fill="#39d353">0% packet loss</tspan> <tspan fill="#4a6352">---</tspan></text>
+  </g>
+  <g class="l" style="animation-delay:5.55s">
+    <text x="28" y="192" fill="#4a6352">// connection closed by remote host. <tspan fill="#7d9a85">stay curious.</tspan> <tspan class="cur" fill="#00ff41">&#9608;</tspan></text>
+  </g>
+
+  <path class="e" d="M28 215h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8" stroke="url(#footer-fade)" stroke-width="1.2"/>
+  <path class="e e1" stroke="#39d353" stroke-width="1.2" stroke-dasharray="170 2400" stroke-dashoffset="-530" opacity=".22" d="M28 215h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8" pathLength="1000"/>
+  <path class="e e2" stroke="#39d353" stroke-width="1.3" stroke-dasharray="80 2400" stroke-dashoffset="-620" opacity=".5" d="M28 215h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8" pathLength="1000"/>
+  <path class="e e3" stroke="#00ff41" stroke-width="1.5" stroke-dasharray="26 2400" stroke-dashoffset="-674" filter="url(#footer-glow)" d="M28 215h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8h56q5 -5 10 0h5l3 2.5l4.5 -13.5l4.5 16l3 -5h7q7 -7 14 0h57.8" pathLength="1000"/>
+  </g>
+</svg>

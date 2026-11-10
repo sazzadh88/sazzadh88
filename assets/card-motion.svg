@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 210" width="430" height="210" role="img" aria-label="Motion Graphics Generator: Templates in, MP4 out. Live browser studio, server-side rendering and AI template generation from a prompt. (TypeScript; Puppeteer, FFmpeg, MP4 / WebM)" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<title>Motion Graphics Generator - Templates in, MP4 out.</title>
+<defs>
+<linearGradient id="card-motion-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0d1410"/></linearGradient>
+<radialGradient id="card-motion-halo" cx="380" cy="171" r="130" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00ff41" stop-opacity=".1"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></radialGradient>
+<linearGradient id="card-motion-rule" x1="22" y1="0" x2="340" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1c3a23"/><stop offset=".7" stop-color="#14261a"/><stop offset="1" stop-color="#14261a" stop-opacity="0"/></linearGradient>
+<pattern id="card-motion-scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#00ff41" opacity=".035"/></pattern>
+<filter id="card-motion-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="card-motion-soft" x="-10%" y="-20%" width="120%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+<clipPath id="card-motion-clip"><rect x="1" y="1" width="428" height="208" rx="11.5"/></clipPath>
+<clipPath id="card-motion-clipo"><rect width="430" height="210" rx="12.5"/></clipPath>
+</defs>
+<style>
+.card-motion-in{animation:card-motion-in .5s cubic-bezier(.2,.7,.2,1) both}
+@keyframes card-motion-in{from{opacity:0;transform:translateY(5px)}}
+.card-motion-ti{animation:card-motion-ti .55s cubic-bezier(.2,.7,.2,1) .3s both}
+@keyframes card-motion-ti{from{opacity:0;transform:translateX(-8px)}}
+.card-motion-br{stroke-dasharray:30;animation:card-motion-br .7s ease-out both}
+@keyframes card-motion-br{from{stroke-dashoffset:30}}
+.card-motion-hl{transform-origin:22px 150px;animation:card-motion-hl .7s ease-out 1.1s both}
+@keyframes card-motion-hl{from{transform:scaleX(0)}}
+.card-motion-gl{transform-origin:380px 171px;animation:card-motion-gl .8s cubic-bezier(.2,.8,.2,1) .9s both}
+@keyframes card-motion-gl{from{opacity:0;transform:scale(.7)}}
+.card-motion-fd{animation:card-motion-fd 1.2s ease-out .8s both}
+@keyframes card-motion-fd{from{opacity:0}}
+.card-motion-pulse{animation:card-motion-pulse 5.4s ease-in-out -3.8s infinite}
+@keyframes card-motion-pulse{0%,100%{opacity:.1}50%{opacity:.36}}
+.card-motion-pulse2{animation:card-motion-pulse2 5.4s ease-in-out -3.8s infinite}
+@keyframes card-motion-pulse2{0%,100%{opacity:.02}50%{opacity:.08}}
+.card-motion-beam{opacity:0;animation:card-motion-on 1.2s ease-out 1.8s forwards}
+@keyframes card-motion-on{to{opacity:1}}
+.card-motion-bm{animation:card-motion-bm 11s linear infinite}
+@keyframes card-motion-bm{from{stroke-dashoffset:0}to{stroke-dashoffset:-1255.4}}
+.card-motion-cur{animation:card-motion-cur 1.1s steps(1,end) infinite}
+@keyframes card-motion-cur{50%{fill-opacity:0}}
+.card-motion-kf{animation:card-motion-kf 3.6s cubic-bezier(.65,0,.35,1) infinite alternate}
+@keyframes card-motion-kf{from{transform:translateX(-17px)}to{transform:translateX(17px)}}
+.card-motion-pl{animation:card-motion-pl 1.8s ease-in-out infinite alternate}
+@keyframes card-motion-pl{from{fill-opacity:.1}to{fill-opacity:.42}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="429" height="209" rx="12" fill="url(#card-motion-bg)" stroke="#1c3a23"/>
+<g clip-path="url(#card-motion-clip)"><rect width="430" height="210" fill="url(#card-motion-halo)"/><rect width="430" height="210" fill="url(#card-motion-scan)"/></g>
+<g class="card-motion-fd" fill="none" stroke="#1f7a3a" stroke-width="1.5" stroke-linecap="round"><path d="M328 143h.01M328 151h.01M336 135h.01M344 127h.01M352 119h.01M360 119h.01M368 111h.01M368 119h.01M376 111h.01M384 111h.01M392 111h.01M392 119h.01M400 119h.01M408 119h.01M416 127h.01" stroke-opacity=".13"/><path d="M336 143h.01M336 151h.01M344 135h.01M344 143h.01M344 199h.01M352 127h.01M352 135h.01M360 127h.01M368 127h.01M376 119h.01M376 127h.01M384 119h.01M384 127h.01M392 127h.01M400 127h.01M408 127h.01M408 135h.01M416 135h.01M416 143h.01M416 199h.01" stroke-opacity=".28"/><path d="M344 151h.01M344 159h.01M344 167h.01M344 175h.01M344 183h.01M344 191h.01M352 143h.01M352 151h.01M352 159h.01M352 183h.01M352 191h.01M352 199h.01M360 135h.01M360 143h.01M360 199h.01M368 135h.01M368 143h.01M368 199h.01M376 135h.01M384 135h.01M392 135h.01M392 143h.01M392 199h.01M400 135h.01M400 143h.01M400 199h.01M408 143h.01M408 151h.01M408 159h.01M408 183h.01M408 191h.01M408 199h.01M416 151h.01M416 159h.01M416 167h.01M416 175h.01M416 183h.01M416 191h.01" stroke-opacity=".5"/><path d="M352 167h.01M352 175h.01M360 151h.01M360 159h.01M360 167h.01M360 175h.01M360 183h.01M360 191h.01M368 151h.01M368 159h.01M368 167h.01M368 175h.01M368 183h.01M368 191h.01M376 143h.01M376 151h.01M376 159h.01M376 167h.01M376 175h.01M376 183h.01M376 191h.01M376 199h.01M384 143h.01M384 151h.01M384 159h.01M384 167h.01M384 175h.01M384 183h.01M384 191h.01M384 199h.01M392 151h.01M392 159h.01M392 167h.01M392 175h.01M392 183h.01M392 191h.01M400 151h.01M400 159h.01M400 167h.01M400 175h.01M400 183h.01M400 191h.01M408 167h.01M408 175h.01" stroke-opacity=".8"/></g>
+<g fill="none" stroke="#00ff41" clip-path="url(#card-motion-clipo)"><rect class="card-motion-pulse2" x=".5" y=".5" width="429" height="209" rx="12" stroke-width="9" opacity=".07"/><rect class="card-motion-pulse2" x=".5" y=".5" width="429" height="209" rx="12" stroke-width="4" opacity=".07"/><rect class="card-motion-pulse" x=".5" y=".5" width="429" height="209" rx="12" opacity=".24"/></g>
+<g class="card-motion-beam" fill="none" clip-path="url(#card-motion-clipo)">
+<path class="card-motion-bm" style="animation-delay:-3.8s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".1" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="170 1085.4"/>
+<path class="card-motion-bm" style="animation-delay:-4.24s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".16" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="120 1135.4"/>
+<path class="card-motion-bm" style="animation-delay:-4.57s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".24" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="82 1173.4"/>
+<path class="card-motion-bm" style="animation-delay:-4.83s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".36" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="52 1203.4"/>
+<path class="card-motion-bm" style="animation-delay:-5.04s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".6" stroke-width="1.5" stroke-linecap="butt" stroke-dasharray="28 1227.4"/>
+<path class="card-motion-bm" style="animation-delay:-5.1s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".045" stroke-width="16" stroke-linecap="round" stroke-dasharray="34 1221.4"/>
+<path class="card-motion-bm" style="animation-delay:-5.13s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".07" stroke-width="10" stroke-linecap="round" stroke-dasharray="26 1229.4"/>
+<path class="card-motion-bm" style="animation-delay:-5.17s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#00ff41" stroke-opacity=".12" stroke-width="5" stroke-linecap="round" stroke-dasharray="18 1237.4"/>
+<path class="card-motion-bm" style="animation-delay:-5.18s" d="M12.5 .5H417.5A12 12 0 0 1 429.5 12.5V197.5A12 12 0 0 1 417.5 209.5H12.5A12 12 0 0 1 .5 197.5V12.5A12 12 0 0 1 12.5 .5Z" stroke="#a8ffbe" stroke-opacity=".95" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="13 1242.4"/>
+</g>
+<path class="card-motion-br" d="M9.5 24V15.5a6 6 0 0 1 6-6H24" fill="none" stroke="#00ff41" stroke-width="1.5" stroke-linecap="round" filter="url(#card-motion-glow)"/>
+<text class="card-motion-in" style="animation-delay:.1s" x="22" y="38" font-size="13" fill="#4a6352">~/public/<tspan fill="#7d9a85">motion-graphics-*</tspan></text>
+<g class="card-motion-in" style="animation-delay:.2s"><rect x="299.5" y="21.5" width="109" height="24" rx="12" fill="#0f3d1e" fill-opacity=".22" stroke="#1c3a23"/><circle cx="312" cy="33.5" r="3.5" fill="#39d353"/><text x="322" y="38" font-size="13" textLength="76" lengthAdjust="spacing" fill="#d7ffe0">TypeScript</text></g>
+<g class="card-motion-ti"><text x="22" y="73" font-size="22" font-weight="700" fill="#00ff41" opacity=".55" filter="url(#card-motion-soft)">Motion Graphics Generator</text>
+<text x="22" y="73" font-size="22" font-weight="700" fill="#00ff41">Motion Graphics Generator<tspan class="card-motion-cur" fill="#39d353" font-weight="400">_</tspan></text></g>
+<text class="card-motion-in" style="animation-delay:.75s" x="22" y="97" font-size="13.5" fill="#d7ffe0">Templates in, MP4 out.</text>
+<text class="card-motion-in" style="animation-delay:.9s" x="22" y="118" font-size="13.5" fill="#7d9a85">Live browser studio, server-side rendering</text>
+<text class="card-motion-in" style="animation-delay:1s" x="22" y="136" font-size="13.5" fill="#7d9a85">and AI template generation from a prompt.</text>
+<path class="card-motion-hl" d="M22 150.5H340" stroke="url(#card-motion-rule)"/>
+<g class="card-motion-in" style="animation-delay:1.30s"><rect x="22.5" y="164.5" width="86" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="31.5" y="181" font-size="13" textLength="68" lengthAdjust="spacing" fill="#39d353">Puppeteer</text></g>
+<g class="card-motion-in" style="animation-delay:1.41s"><rect x="115.5" y="164.5" width="64" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="124.5" y="181" font-size="13" textLength="46" lengthAdjust="spacing" fill="#39d353">FFmpeg</text></g>
+<g class="card-motion-in" style="animation-delay:1.52s"><rect x="186.5" y="164.5" width="94" height="24" rx="6" fill="#0f3d1e" fill-opacity=".3" stroke="#1c3a23"/><text x="195.5" y="181" font-size="13" textLength="76" lengthAdjust="spacing" fill="#39d353">MP4 / WebM</text></g>
+<g class="card-motion-gl"><g transform="translate(352 143) scale(1.077)" fill="none" stroke="#00ff41" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" filter="url(#card-motion-glow)">
+<rect x="2" y="3" width="48" height="32" rx="4"/>
+<path d="M9 3v32M43 3v32" stroke="#1f7a3a"/>
+<path d="M4.5 9.5h2M4.5 16h2M4.5 22.5h2M4.5 29h2M45.5 9.5h2M45.5 16h2M45.5 22.5h2M45.5 29h2" stroke="#1f7a3a"/>
+<path class="card-motion-pl" d="M21.5 12.5L33 19L21.5 25.5Z" fill="#00ff41" fill-opacity=".3"/>
+<path d="M4 46h44" stroke="#1f7a3a"/><path d="M4 43.5v5M48 43.5v5M15 44.8v2.4M37 44.8v2.4" stroke="#1f7a3a"/>
+<path class="card-motion-kf" d="M26 41.5L30.5 46L26 50.5L21.5 46Z" stroke="#ffb000" fill="#0a0e0a"/>
+</g></g>
+</svg>
