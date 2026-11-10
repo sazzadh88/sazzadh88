@@ -6,6 +6,7 @@ Rewrites, in place:
   assets/whoami.svg    repo counts, years on GitHub
   assets/langs.svg     repos by primary language (bars, counts, percentages)
   assets/timeline.svg  repos by year of last push (adds a point every new year)
+  assets/classified.svg  private repo count
 
 Everything else in those files (layout, animation, styling) is left untouched.
 
@@ -138,6 +139,14 @@ def update_whoami(svg, d):
               rf'\g<1>{d["total"]} repos \g<2>({d["public"]} public, {d["private"]} private)',
               svg, "whoami packages row")
     return svg
+
+
+# ─────────────────────────── classified ───────────────────────────
+
+def update_classified(svg, d):
+    svg = sub(r'(aria-label="Classified dossier: )\d+', rf'\g<1>{d["private"]}', svg, "classified aria-label")
+    return sub(r'(font-weight="700">)\d+(</tspan> PRIVATE REPOSITORIES)', rf'\g<1>{d["private"]}\g<2>',
+               svg, "classified private-repo count")
 
 
 # ───────────────────────────── langs ─────────────────────────────
@@ -378,7 +387,8 @@ def main():
 
     changed = []
     for name, fn in (("header.svg", update_header), ("whoami.svg", update_whoami),
-                     ("langs.svg", update_langs), ("timeline.svg", update_timeline)):
+                     ("langs.svg", update_langs), ("timeline.svg", update_timeline),
+                     ("classified.svg", update_classified)):
         path = ASSETS / name
         old = path.read_text(encoding="utf-8")
         new = fn(old, data)
