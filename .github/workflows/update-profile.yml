@@ -1,0 +1,53 @@
+name: update profile stats
+
+# Redraws the number-driven panels (banner, neofetch, languages, timeline) from live GitHub data.
+# Needs a repository secret named PROFILE_TOKEN: a fine-grained personal access token with
+# read-only access to all of the account's repositories (so private ones are counted).
+
+on:
+  schedule:
+    - cron: "17 3 * * 1" # every Monday, 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+    steps:
+      - name: Stop early when the token is missing
+        id: gate
+        run: |
+          if [ -z "$PROFILE_TOKEN" ]; then
+            echo "::warning::PROFILE_TOKEN secret is not set, so the profile graphics were not updated."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.ready == 'true'
+
+      - name: Regenerate graphics
+        if: steps.gate.outputs.ready == 'true'
+        run: python3 scripts/update_profile.py
+
+      - name: Commit if anything changed
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          if git diff --quiet -- assets; then
+            echo "Numbers are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "Update profile stats"
+          git push

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="880" height="430" role="img" aria-label="Terminal running neofetch for sazzad@f9x: Sazzad Hussain, founder and engineer at F9x Technologies, Bhubaneswar, India. 10 years on GitHub, 228 repositories. PHP, Go, TypeScript, Dart, Laravel, Vue, Next.js, Flutter, Swift.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" width="880" height="430" role="img" aria-label="Terminal running neofetch for sazzad@f9x: Sazzad Hussain, founder and engineer at F9x Technologies, Bhubaneswar, India. 10 years on GitHub, 229 repositories. PHP, Go, TypeScript, Dart, Laravel, Vue, Next.js, Flutter, Swift.">
 <title>sazzad@f9x: neofetch</title>
 <defs>
 <linearGradient id="whoami-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0e0a"/><stop offset="1" stop-color="#0d1410"/></linearGradient>
@@ -70,7 +70,7 @@
 <g class="whoami-in" style="animation-delay:1.86s"><text x="330" y="172" class="whoami-k">Kernel<tspan class="whoami-colon">:</tspan></text><text x="440" y="172" class="whoami-v">Founder / Engineer</text></g>
 <g class="whoami-in" style="animation-delay:1.95s"><text x="330" y="194" class="whoami-k">Location<tspan class="whoami-colon">:</tspan></text><text x="440" y="194" class="whoami-v">Bhubaneswar, India</text></g>
 <g class="whoami-in" style="animation-delay:2.04s"><text x="330" y="216" class="whoami-k">Uptime<tspan class="whoami-colon">:</tspan></text><text x="440" y="216" class="whoami-v">10 years <tspan class="whoami-mut">(since 2016-09-10)</tspan></text></g>
-<g class="whoami-in" style="animation-delay:2.13s"><text x="330" y="238" class="whoami-k">Packages<tspan class="whoami-colon">:</tspan></text><text x="440" y="238" class="whoami-v">228 repos <tspan class="whoami-mut">(42 public, 186 private)</tspan></text></g>
+<g class="whoami-in" style="animation-delay:2.13s"><text x="330" y="238" class="whoami-k">Packages<tspan class="whoami-colon">:</tspan></text><text x="440" y="238" class="whoami-v">229 repos <tspan class="whoami-mut">(43 public, 186 private)</tspan></text></g>
 <g class="whoami-in" style="animation-delay:2.22s"><text x="330" y="260" class="whoami-k">Shell<tspan class="whoami-colon">:</tspan></text><text x="440" y="260" class="whoami-v">PHP<tspan class="whoami-sep"> · </tspan>Go<tspan class="whoami-sep"> · </tspan>TypeScript<tspan class="whoami-sep"> · </tspan>Dart</text></g>
 <g class="whoami-in" style="animation-delay:2.31s"><text x="330" y="282" class="whoami-k">DE<tspan class="whoami-colon">:</tspan></text><text x="440" y="282" class="whoami-v">Laravel<tspan class="whoami-sep"> · </tspan>Vue<tspan class="whoami-sep"> · </tspan>Next.js<tspan class="whoami-sep"> · </tspan>Flutter</text></g>
 <g class="whoami-in" style="animation-delay:2.40s"><text x="330" y="304" class="whoami-k">WM<tspan class="whoami-colon">:</tspan></text><text x="440" y="304" class="whoami-v">Swift / SwiftUI <tspan class="whoami-mut">(macOS)</tspan></text></g>
